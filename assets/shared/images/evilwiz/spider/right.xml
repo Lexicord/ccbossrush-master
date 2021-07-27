@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="right.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Spider Note Right0000" x="0" y="0" width="3366" height="2524" frameX="-298" frameY="0" frameWidth="3664" frameHeight="2524"/>
+	<SubTexture name="Spider Note Right0001" x="3368" y="0" width="3347" height="2501" frameX="-274" frameY="-23" frameWidth="3664" frameHeight="2524"/>
+	<SubTexture name="Spider Note Right0002" x="0" y="2526" width="3251" height="2440" frameX="-139" frameY="-81" frameWidth="3664" frameHeight="2524"/>
+	<SubTexture name="Spider Note Right0003" x="3253" y="2526" width="3027" height="2134" frameX="-44" frameY="-331" frameWidth="3664" frameHeight="2524"/>
+	<SubTexture name="Spider Note Right0004" x="0" y="4968" width="3111" height="1979" frameX="0" frameY="-425" frameWidth="3664" frameHeight="2524"/>
+	<SubTexture name="Spider Note Right0005" x="0" y="4968" width="3111" height="1979" frameX="0" frameY="-425" frameWidth="3664" frameHeight="2524"/>
+	<SubTexture name="Spider Note Right0006" x="0" y="4968" width="3111" height="1979" frameX="0" frameY="-425" frameWidth="3664" frameHeight="2524"/>
+	<SubTexture name="Spider Note Right0007" x="0" y="4968" width="3111" height="1979" frameX="0" frameY="-425" frameWidth="3664" frameHeight="2524"/>
+	<SubTexture name="Spider Note Right0008" x="0" y="4968" width="3111" height="1979" frameX="0" frameY="-425" frameWidth="3664" frameHeight="2524"/>
+	<SubTexture name="Spider Note Right0009" x="0" y="4968" width="3111" height="1979" frameX="0" frameY="-425" frameWidth="3664" frameHeight="2524"/>
+	<SubTexture name="Spider Note Right0010" x="0" y="4968" width="3111" height="1979" frameX="0" frameY="-425" frameWidth="3664" frameHeight="2524"/>
+	<SubTexture name="Spider Note Right0011" x="0" y="4968" width="3111" height="1979" frameX="0" frameY="-425" frameWidth="3664" frameHeight="2524"/>
+	<SubTexture name="Spider Note Right0012" x="0" y="4968" width="3111" height="1979" frameX="0" frameY="-425" frameWidth="3664" frameHeight="2524"/>
+	<SubTexture name="Spider Note Right0013" x="0" y="4968" width="3111" height="1979" frameX="0" frameY="-425" frameWidth="3664" frameHeight="2524"/>
+</TextureAtlas>

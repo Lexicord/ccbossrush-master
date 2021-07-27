@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="groom_undead.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Cyclops Note Idle0000" x="0" y="0" width="881" height="1110" frameX="-20" frameY="-80" frameWidth="910" frameHeight="1190"/>
+	<SubTexture name="Cyclops Note Idle0001" x="883" y="0" width="860" height="1116" frameX="-41" frameY="-74" frameWidth="910" frameHeight="1190"/>
+	<SubTexture name="Cyclops Note Idle0002" x="1745" y="0" width="872" height="1132" frameX="-38" frameY="-58" frameWidth="910" frameHeight="1190"/>
+	<SubTexture name="Cyclops Note Idle0003" x="2619" y="0" width="882" height="1150" frameX="-28" frameY="-40" frameWidth="910" frameHeight="1190"/>
+	<SubTexture name="Cyclops Note Idle0004" x="3503" y="0" width="910" height="1180" frameX="0" frameY="-10" frameWidth="910" frameHeight="1190"/>
+	<SubTexture name="Cyclops Note Idle0005" x="4415" y="0" width="901" height="1186" frameX="0" frameY="-4" frameWidth="910" frameHeight="1190"/>
+	<SubTexture name="Cyclops Note Idle0006" x="5318" y="0" width="901" height="1181" frameX="0" frameY="-9" frameWidth="910" frameHeight="1190"/>
+	<SubTexture name="Cyclops Note Idle0007" x="6221" y="0" width="901" height="1181" frameX="0" frameY="-9" frameWidth="910" frameHeight="1190"/>
+	<SubTexture name="Cyclops Note Idle0008" x="7124" y="0" width="901" height="1181" frameX="0" frameY="-9" frameWidth="910" frameHeight="1190"/>
+	<SubTexture name="Cyclops Note Idle0009" x="0" y="1188" width="901" height="1181" frameX="0" frameY="-9" frameWidth="910" frameHeight="1190"/>
+	<SubTexture name="Cyclops Note Idle0010" x="903" y="1188" width="901" height="1177" frameX="0" frameY="-13" frameWidth="910" frameHeight="1190"/>
+	<SubTexture name="Cyclops Note Idle0011" x="1806" y="1188" width="901" height="1190" frameX="0" frameY="0" frameWidth="910" frameHeight="1190"/>
+	<SubTexture name="Cyclops Note Idle0012" x="2709" y="1188" width="901" height="1166" frameX="0" frameY="-24" frameWidth="910" frameHeight="1190"/>
+	<SubTexture name="Groom Note Down0000" x="3612" y="1188" width="1563" height="1048"/>
+	<SubTexture name="Groom Note Down0001" x="5177" y="1188" width="1475" height="1048" frameX="-40" frameY="0" frameWidth="1563" frameHeight="1048"/>
+	<SubTexture name="Groom Note Down0002" x="6654" y="1188" width="1293" height="1048" frameX="-154" frameY="0" frameWidth="1563" frameHeight="1048"/>
+	<SubTexture name="Groom Note Down0003" x="0" y="2380" width="1293" height="1048" frameX="-152" frameY="0" frameWidth="1563" frameHeight="1048"/>
+	<SubTexture name="Groom Note Down0004" x="1295" y="2380" width="1290" height="1048" frameX="-151" frameY="0" frameWidth="1563" frameHeight="1048"/>
+	<SubTexture name="Groom Note Left0000" x="2587" y="2380" width="1745" height="1189" frameX="0" frameY="0" frameWidth="1747" frameHeight="1189"/>
+	<SubTexture name="Groom Note Left0001" x="4334" y="2380" width="1660" height="1156" frameX="-87" frameY="-33" frameWidth="1747" frameHeight="1189"/>
+	<SubTexture name="Groom Note Left0002" x="5996" y="2380" width="1509" height="1107" frameX="-213" frameY="-81" frameWidth="1747" frameHeight="1189"/>
+	<SubTexture name="Groom Note Left0003" x="0" y="3571" width="1448" height="1065" frameX="-237" frameY="-123" frameWidth="1747" frameHeight="1189"/>
+	<SubTexture name="Groom Note Left0004" x="1450" y="3571" width="1310" height="1088" frameX="-356" frameY="-100" frameWidth="1747" frameHeight="1189"/>
+	<SubTexture name="Groom Note Right0000" x="2762" y="3571" width="1495" height="1136" frameX="-79" frameY="-10" frameWidth="1595" frameHeight="1147"/>
+	<SubTexture name="Groom Note Right0001" x="4259" y="3571" width="1595" height="1146" frameX="0" frameY="0" frameWidth="1595" frameHeight="1147"/>
+	<SubTexture name="Groom Note Right0002" x="5856" y="3571" width="1345" height="1072" frameX="-95" frameY="-75" frameWidth="1595" frameHeight="1147"/>
+	<SubTexture name="Groom Note Right0003" x="0" y="4719" width="1199" height="1058" frameX="-195" frameY="-89" frameWidth="1595" frameHeight="1147"/>
+	<SubTexture name="Groom Note Right0004" x="1201" y="4719" width="1083" height="1089" frameX="-256" frameY="-58" frameWidth="1595" frameHeight="1147"/>
+	<SubTexture name="Groom Note Up0000" x="2286" y="4719" width="1377" height="1492" frameX="0" frameY="-3" frameWidth="1377" frameHeight="1495"/>
+	<SubTexture name="Groom Note Up0001" x="3665" y="4719" width="1311" height="1495" frameX="-35" frameY="0" frameWidth="1377" frameHeight="1495"/>
+	<SubTexture name="Groom Note Up0002" x="4978" y="4719" width="1174" height="1454" frameX="-156" frameY="-40" frameWidth="1377" frameHeight="1495"/>
+	<SubTexture name="Groom Note Up0003" x="6154" y="4719" width="1090" height="1301" frameX="-215" frameY="-192" frameWidth="1377" frameHeight="1495"/>
+	<SubTexture name="Groom Note Up0004" x="0" y="6216" width="1046" height="1323" frameX="-238" frameY="-171" frameWidth="1377" frameHeight="1495"/>
+</TextureAtlas>

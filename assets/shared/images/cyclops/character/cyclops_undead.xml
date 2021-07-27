@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="cyclops_undead.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Cyclops Note Down0000" x="0" y="0" width="921" height="959" frameX="0" frameY="-9" frameWidth="921" frameHeight="968"/>
+	<SubTexture name="Cyclops Note Down0001" x="923" y="0" width="906" height="958" frameX="0" frameY="0" frameWidth="921" frameHeight="968"/>
+	<SubTexture name="Cyclops Note Down0002" x="1831" y="0" width="891" height="953" frameX="0" frameY="-5" frameWidth="921" frameHeight="968"/>
+	<SubTexture name="Cyclops Note Down0003" x="2724" y="0" width="883" height="949" frameX="-6" frameY="-9" frameWidth="921" frameHeight="968"/>
+	<SubTexture name="Cyclops Note Down0004" x="3609" y="0" width="875" height="953" frameX="-10" frameY="-5" frameWidth="921" frameHeight="968"/>
+	<SubTexture name="Cyclops Note Idle0000" x="4486" y="0" width="881" height="1110" frameX="-20" frameY="-80" frameWidth="910" frameHeight="1190"/>
+	<SubTexture name="Cyclops Note Idle0001" x="5369" y="0" width="860" height="1116" frameX="-41" frameY="-74" frameWidth="910" frameHeight="1190"/>
+	<SubTexture name="Cyclops Note Idle0002" x="6231" y="0" width="872" height="1132" frameX="-38" frameY="-58" frameWidth="910" frameHeight="1190"/>
+	<SubTexture name="Cyclops Note Idle0003" x="7105" y="0" width="882" height="1150" frameX="-28" frameY="-40" frameWidth="910" frameHeight="1190"/>
+	<SubTexture name="Cyclops Note Idle0004" x="0" y="1152" width="910" height="1180" frameX="0" frameY="-10" frameWidth="910" frameHeight="1190"/>
+	<SubTexture name="Cyclops Note Idle0005" x="912" y="1152" width="901" height="1186" frameX="0" frameY="-4" frameWidth="910" frameHeight="1190"/>
+	<SubTexture name="Cyclops Note Idle0006" x="1815" y="1152" width="901" height="1181" frameX="0" frameY="-9" frameWidth="910" frameHeight="1190"/>
+	<SubTexture name="Cyclops Note Idle0007" x="2718" y="1152" width="901" height="1181" frameX="0" frameY="-9" frameWidth="910" frameHeight="1190"/>
+	<SubTexture name="Cyclops Note Idle0008" x="3621" y="1152" width="901" height="1181" frameX="0" frameY="-9" frameWidth="910" frameHeight="1190"/>
+	<SubTexture name="Cyclops Note Idle0009" x="4524" y="1152" width="901" height="1181" frameX="0" frameY="-9" frameWidth="910" frameHeight="1190"/>
+	<SubTexture name="Cyclops Note Idle0010" x="5427" y="1152" width="901" height="1177" frameX="0" frameY="-13" frameWidth="910" frameHeight="1190"/>
+	<SubTexture name="Cyclops Note Idle0011" x="6330" y="1152" width="901" height="1190" frameX="0" frameY="0" frameWidth="910" frameHeight="1190"/>
+	<SubTexture name="Cyclops Note Idle0012" x="7233" y="1152" width="901" height="1166" frameX="0" frameY="-24" frameWidth="910" frameHeight="1190"/>
+	<SubTexture name="Cyclops Note Left0000" x="0" y="2344" width="1218" height="1109"/>
+	<SubTexture name="Cyclops Note Left0001" x="1220" y="2344" width="1118" height="1069" frameX="-100" frameY="-40" frameWidth="1218" frameHeight="1109"/>
+	<SubTexture name="Cyclops Note Left0002" x="2340" y="2344" width="1035" height="1061" frameX="-183" frameY="-48" frameWidth="1218" frameHeight="1109"/>
+	<SubTexture name="Cyclops Note Left0003" x="3377" y="2344" width="1035" height="1061" frameX="-180" frameY="-48" frameWidth="1218" frameHeight="1109"/>
+	<SubTexture name="Cyclops Note Left0004" x="4414" y="2344" width="1036" height="1061" frameX="-177" frameY="-48" frameWidth="1218" frameHeight="1109"/>
+	<SubTexture name="Cyclops Note Right0000" x="5452" y="2344" width="1214" height="1054" frameX="-7" frameY="0" frameWidth="1221" frameHeight="1054"/>
+	<SubTexture name="Cyclops Note Right0001" x="6668" y="2344" width="1118" height="1013" frameX="-3" frameY="-41" frameWidth="1221" frameHeight="1054"/>
+	<SubTexture name="Cyclops Note Right0002" x="0" y="3455" width="949" height="1017" frameX="0" frameY="-37" frameWidth="1221" frameHeight="1054"/>
+	<SubTexture name="Cyclops Note Right0003" x="951" y="3455" width="951" height="1013" frameX="0" frameY="-41" frameWidth="1221" frameHeight="1054"/>
+	<SubTexture name="Cyclops Note Right0004" x="1904" y="3455" width="953" height="1017" frameX="0" frameY="-37" frameWidth="1221" frameHeight="1054"/>
+	<SubTexture name="Cyclops Note Up0000" x="2859" y="3455" width="898" height="1290" frameX="-92" frameY="0" frameWidth="990" frameHeight="1290"/>
+	<SubTexture name="Cyclops Note Up0001" x="3759" y="3455" width="920" height="1250" frameX="-47" frameY="-40" frameWidth="990" frameHeight="1290"/>
+	<SubTexture name="Cyclops Note Up0002" x="4681" y="3455" width="933" height="1193" frameX="-23" frameY="-97" frameWidth="990" frameHeight="1290"/>
+	<SubTexture name="Cyclops Note Up0003" x="5616" y="3455" width="944" height="1195" frameX="-12" frameY="-95" frameWidth="990" frameHeight="1290"/>
+	<SubTexture name="Cyclops Note Up0004" x="6562" y="3455" width="956" height="1196" frameX="0" frameY="-94" frameWidth="990" frameHeight="1290"/>
+</TextureAtlas>

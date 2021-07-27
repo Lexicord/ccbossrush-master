@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="revived.png">
+	<!-- Created with Adobe Animate version 21.0.4.39603 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="revivedbump0000" x="0" y="0" width="379" height="126" frameX="-7" frameY="-2" frameWidth="392" frameHeight="129"/>
+	<SubTexture name="revivedbump0001" x="381" y="0" width="392" height="129"/>
+	<SubTexture name="revivedbump0002" x="0" y="131" width="392" height="129"/>
+	<SubTexture name="revivedbump0003" x="394" y="131" width="390" height="129" frameX="-1" frameY="0" frameWidth="392" frameHeight="129"/>
+	<SubTexture name="revivedbump0004" x="0" y="262" width="390" height="129" frameX="-1" frameY="0" frameWidth="392" frameHeight="129"/>
+	<SubTexture name="revivedbump0005" x="392" y="262" width="387" height="127" frameX="-3" frameY="-1" frameWidth="392" frameHeight="129"/>
+	<SubTexture name="revivedbump0006" x="392" y="262" width="387" height="127" frameX="-3" frameY="-1" frameWidth="392" frameHeight="129"/>
+	<SubTexture name="revivedbump0007" x="392" y="262" width="387" height="127" frameX="-3" frameY="-1" frameWidth="392" frameHeight="129"/>
+	<SubTexture name="revivedbump0008" x="392" y="262" width="387" height="127" frameX="-3" frameY="-1" frameWidth="392" frameHeight="129"/>
+	<SubTexture name="revivedbump0009" x="392" y="262" width="387" height="127" frameX="-3" frameY="-1" frameWidth="392" frameHeight="129"/>
+	<SubTexture name="revivedbump0010" x="392" y="262" width="387" height="127" frameX="-3" frameY="-1" frameWidth="392" frameHeight="129"/>
+	<SubTexture name="revivedbump0011" x="392" y="262" width="387" height="127" frameX="-3" frameY="-1" frameWidth="392" frameHeight="129"/>
+	<SubTexture name="revivedbump0012" x="392" y="262" width="387" height="127" frameX="-3" frameY="-1" frameWidth="392" frameHeight="129"/>
+	<SubTexture name="revivedbump0013" x="392" y="262" width="387" height="127" frameX="-3" frameY="-1" frameWidth="392" frameHeight="129"/>
+	<SubTexture name="revivedbump0014" x="0" y="0" width="379" height="126" frameX="-7" frameY="-2" frameWidth="392" frameHeight="129"/>
+	<SubTexture name="revivedbump0015" x="0" y="393" width="392" height="129"/>
+	<SubTexture name="revivedbump0016" x="0" y="393" width="392" height="129"/>
+	<SubTexture name="revivedbump0017" x="0" y="262" width="390" height="129" frameX="-1" frameY="0" frameWidth="392" frameHeight="129"/>
+	<SubTexture name="revivedbump0018" x="0" y="262" width="390" height="129" frameX="-1" frameY="0" frameWidth="392" frameHeight="129"/>
+	<SubTexture name="revivedbump0019" x="392" y="262" width="387" height="127" frameX="-3" frameY="-1" frameWidth="392" frameHeight="129"/>
+	<SubTexture name="revivedbump0020" x="392" y="262" width="387" height="127" frameX="-3" frameY="-1" frameWidth="392" frameHeight="129"/>
+	<SubTexture name="revivedbump0021" x="392" y="262" width="387" height="127" frameX="-3" frameY="-1" frameWidth="392" frameHeight="129"/>
+	<SubTexture name="revivedbump0022" x="392" y="262" width="387" height="127" frameX="-3" frameY="-1" frameWidth="392" frameHeight="129"/>
+	<SubTexture name="revivedbump0023" x="392" y="262" width="387" height="127" frameX="-3" frameY="-1" frameWidth="392" frameHeight="129"/>
+	<SubTexture name="revivedbump0024" x="392" y="262" width="387" height="127" frameX="-3" frameY="-1" frameWidth="392" frameHeight="129"/>
+	<SubTexture name="revivedbump0025" x="392" y="262" width="387" height="127" frameX="-3" frameY="-1" frameWidth="392" frameHeight="129"/>
+	<SubTexture name="revivedbump0026" x="392" y="262" width="387" height="127" frameX="-3" frameY="-1" frameWidth="392" frameHeight="129"/>
+	<SubTexture name="revivedbump0027" x="392" y="262" width="387" height="127" frameX="-3" frameY="-1" frameWidth="392" frameHeight="129"/>
+</TextureAtlas>

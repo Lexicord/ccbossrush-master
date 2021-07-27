@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="painter.png">
+	<!-- Created with Adobe Animate version 21.0.4.39603 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Painter Idle0000" x="0" y="0" width="474" height="661" frameX="0" frameY="-15" frameWidth="476" frameHeight="677"/>
+	<SubTexture name="Painter Idle0001" x="476" y="0" width="474" height="661" frameX="0" frameY="-15" frameWidth="476" frameHeight="677"/>
+	<SubTexture name="Painter Idle0002" x="952" y="0" width="471" height="669" frameX="-5" frameY="-7" frameWidth="476" frameHeight="677"/>
+	<SubTexture name="Painter Idle0003" x="1425" y="0" width="471" height="669" frameX="-5" frameY="-7" frameWidth="476" frameHeight="677"/>
+	<SubTexture name="Painter Idle0004" x="1898" y="0" width="465" height="677" frameX="-9" frameY="0" frameWidth="476" frameHeight="677"/>
+	<SubTexture name="Painter Idle0005" x="2365" y="0" width="465" height="677" frameX="-9" frameY="0" frameWidth="476" frameHeight="677"/>
+	<SubTexture name="Painter Idle0006" x="2832" y="0" width="465" height="677" frameX="-9" frameY="0" frameWidth="476" frameHeight="677"/>
+	<SubTexture name="Painter Idle0007" x="3299" y="0" width="465" height="677" frameX="-9" frameY="0" frameWidth="476" frameHeight="677"/>
+	<SubTexture name="Painter Idle0008" x="3766" y="0" width="465" height="677" frameX="-9" frameY="0" frameWidth="476" frameHeight="677"/>
+	<SubTexture name="Painter Idle0009" x="2832" y="0" width="465" height="677" frameX="-9" frameY="0" frameWidth="476" frameHeight="677"/>
+	<SubTexture name="Painter Idle0010" x="3299" y="0" width="465" height="677" frameX="-9" frameY="0" frameWidth="476" frameHeight="677"/>
+	<SubTexture name="Painter Idle0011" x="3766" y="0" width="465" height="677" frameX="-9" frameY="0" frameWidth="476" frameHeight="677"/>
+	<SubTexture name="Painter Idle0012" x="2832" y="0" width="465" height="677" frameX="-9" frameY="0" frameWidth="476" frameHeight="677"/>
+	<SubTexture name="Painter Idle0013" x="3299" y="0" width="465" height="677" frameX="-9" frameY="0" frameWidth="476" frameHeight="677"/>
+	<SubTexture name="Painter Note Down0000" x="4233" y="0" width="504" height="665" frameX="-26" frameY="-68" frameWidth="535" frameHeight="739"/>
+	<SubTexture name="Painter Note Down0001" x="4739" y="0" width="452" height="733" frameX="-78" frameY="0" frameWidth="535" frameHeight="739"/>
+	<SubTexture name="Painter Note Down0002" x="5193" y="0" width="530" height="654" frameX="-5" frameY="-85" frameWidth="535" frameHeight="739"/>
+	<SubTexture name="Painter Note Down0003" x="5725" y="0" width="519" height="574" frameX="0" frameY="-165" frameWidth="535" frameHeight="739"/>
+	<SubTexture name="Painter Note Down0004" x="6246" y="0" width="513" height="574" frameX="-6" frameY="-165" frameWidth="535" frameHeight="739"/>
+	<SubTexture name="Painter Note Down0005" x="6761" y="0" width="513" height="574" frameX="-6" frameY="-165" frameWidth="535" frameHeight="739"/>
+	<SubTexture name="Painter Note Down0006" x="7276" y="0" width="513" height="574" frameX="-6" frameY="-165" frameWidth="535" frameHeight="739"/>
+	<SubTexture name="Painter Note Down0007" x="6246" y="0" width="513" height="574" frameX="-6" frameY="-165" frameWidth="535" frameHeight="739"/>
+	<SubTexture name="Painter Note Down0008" x="6761" y="0" width="513" height="574" frameX="-6" frameY="-165" frameWidth="535" frameHeight="739"/>
+	<SubTexture name="Painter Note Down0009" x="7276" y="0" width="513" height="574" frameX="-6" frameY="-165" frameWidth="535" frameHeight="739"/>
+	<SubTexture name="Painter Note Down0010" x="6246" y="0" width="513" height="574" frameX="-6" frameY="-165" frameWidth="535" frameHeight="739"/>
+	<SubTexture name="Painter Note Down0011" x="6761" y="0" width="513" height="574" frameX="-6" frameY="-165" frameWidth="535" frameHeight="739"/>
+	<SubTexture name="Painter Note Down0012" x="7276" y="0" width="513" height="574" frameX="-6" frameY="-165" frameWidth="535" frameHeight="739"/>
+	<SubTexture name="Painter Note Down0013" x="6246" y="0" width="513" height="574" frameX="-6" frameY="-165" frameWidth="535" frameHeight="739"/>
+	<SubTexture name="Painter Note Left0000" x="0" y="735" width="601" height="728" frameX="-119" frameY="0" frameWidth="731" frameHeight="777"/>
+	<SubTexture name="Painter Note Left0001" x="603" y="735" width="601" height="728" frameX="-119" frameY="0" frameWidth="731" frameHeight="777"/>
+	<SubTexture name="Painter Note Left0002" x="1206" y="735" width="726" height="716" frameX="-5" frameY="-61" frameWidth="731" frameHeight="777"/>
+	<SubTexture name="Painter Note Left0003" x="1934" y="735" width="728" height="675" frameX="-3" frameY="-59" frameWidth="731" frameHeight="777"/>
+	<SubTexture name="Painter Note Left0004" x="2664" y="735" width="731" height="675" frameX="0" frameY="-59" frameWidth="731" frameHeight="777"/>
+	<SubTexture name="Painter Note Left0005" x="3397" y="735" width="731" height="675" frameX="0" frameY="-59" frameWidth="731" frameHeight="777"/>
+	<SubTexture name="Painter Note Left0006" x="4130" y="735" width="731" height="675" frameX="0" frameY="-59" frameWidth="731" frameHeight="777"/>
+	<SubTexture name="Painter Note Left0007" x="4863" y="735" width="731" height="675" frameX="0" frameY="-59" frameWidth="731" frameHeight="777"/>
+	<SubTexture name="Painter Note Left0008" x="3397" y="735" width="731" height="675" frameX="0" frameY="-59" frameWidth="731" frameHeight="777"/>
+	<SubTexture name="Painter Note Left0009" x="4130" y="735" width="731" height="675" frameX="0" frameY="-59" frameWidth="731" frameHeight="777"/>
+	<SubTexture name="Painter Note Left0010" x="4863" y="735" width="731" height="675" frameX="0" frameY="-59" frameWidth="731" frameHeight="777"/>
+	<SubTexture name="Painter Note Left0011" x="3397" y="735" width="731" height="675" frameX="0" frameY="-59" frameWidth="731" frameHeight="777"/>
+	<SubTexture name="Painter Note Left0012" x="4130" y="735" width="731" height="675" frameX="0" frameY="-59" frameWidth="731" frameHeight="777"/>
+	<SubTexture name="Painter Note Left0013" x="4863" y="735" width="731" height="675" frameX="0" frameY="-59" frameWidth="731" frameHeight="777"/>
+	<SubTexture name="Painter Note Right0000" x="5596" y="735" width="621" height="732" frameX="0" frameY="0" frameWidth="621" frameHeight="738"/>
+	<SubTexture name="Painter Note Right0001" x="6219" y="735" width="621" height="732" frameX="0" frameY="0" frameWidth="621" frameHeight="738"/>
+	<SubTexture name="Painter Note Right0002" x="6842" y="735" width="470" height="671" frameX="-145" frameY="-67" frameWidth="621" frameHeight="738"/>
+	<SubTexture name="Painter Note Right0003" x="7314" y="735" width="468" height="677" frameX="-147" frameY="-61" frameWidth="621" frameHeight="738"/>
+	<SubTexture name="Painter Note Right0004" x="0" y="1469" width="441" height="677" frameX="-174" frameY="-61" frameWidth="621" frameHeight="738"/>
+	<SubTexture name="Painter Note Right0005" x="443" y="1469" width="441" height="677" frameX="-174" frameY="-61" frameWidth="621" frameHeight="738"/>
+	<SubTexture name="Painter Note Right0006" x="886" y="1469" width="441" height="677" frameX="-174" frameY="-61" frameWidth="621" frameHeight="738"/>
+	<SubTexture name="Painter Note Right0007" x="1329" y="1469" width="441" height="677" frameX="-174" frameY="-61" frameWidth="621" frameHeight="738"/>
+	<SubTexture name="Painter Note Right0008" x="443" y="1469" width="441" height="677" frameX="-174" frameY="-61" frameWidth="621" frameHeight="738"/>
+	<SubTexture name="Painter Note Right0009" x="886" y="1469" width="441" height="677" frameX="-174" frameY="-61" frameWidth="621" frameHeight="738"/>
+	<SubTexture name="Painter Note Right0010" x="1329" y="1469" width="441" height="677" frameX="-174" frameY="-61" frameWidth="621" frameHeight="738"/>
+	<SubTexture name="Painter Note Right0011" x="443" y="1469" width="441" height="677" frameX="-174" frameY="-61" frameWidth="621" frameHeight="738"/>
+	<SubTexture name="Painter Note Right0012" x="886" y="1469" width="441" height="677" frameX="-174" frameY="-61" frameWidth="621" frameHeight="738"/>
+	<SubTexture name="Painter Note Right0013" x="1329" y="1469" width="441" height="677" frameX="-174" frameY="-61" frameWidth="621" frameHeight="738"/>
+	<SubTexture name="Painter Note Up0000" x="1772" y="1469" width="611" height="678" frameX="0" frameY="-39" frameWidth="612" frameHeight="717"/>
+	<SubTexture name="Painter Note Up0001" x="2385" y="1469" width="611" height="678" frameX="0" frameY="-39" frameWidth="612" frameHeight="717"/>
+	<SubTexture name="Painter Note Up0002" x="2998" y="1469" width="505" height="629" frameX="-107" frameY="-87" frameWidth="612" frameHeight="717"/>
+	<SubTexture name="Painter Note Up0003" x="3505" y="1469" width="459" height="695" frameX="-153" frameY="-21" frameWidth="612" frameHeight="717"/>
+	<SubTexture name="Painter Note Up0004" x="3966" y="1469" width="446" height="716" frameX="-166" frameY="0" frameWidth="612" frameHeight="717"/>
+	<SubTexture name="Painter Note Up0005" x="4414" y="1469" width="446" height="680" frameX="-166" frameY="-36" frameWidth="612" frameHeight="717"/>
+	<SubTexture name="Painter Note Up0006" x="4862" y="1469" width="446" height="680" frameX="-166" frameY="-36" frameWidth="612" frameHeight="717"/>
+	<SubTexture name="Painter Note Up0007" x="5310" y="1469" width="446" height="680" frameX="-166" frameY="-36" frameWidth="612" frameHeight="717"/>
+	<SubTexture name="Painter Note Up0008" x="4414" y="1469" width="446" height="680" frameX="-166" frameY="-36" frameWidth="612" frameHeight="717"/>
+	<SubTexture name="Painter Note Up0009" x="4862" y="1469" width="446" height="680" frameX="-166" frameY="-36" frameWidth="612" frameHeight="717"/>
+	<SubTexture name="Painter Note Up0010" x="5310" y="1469" width="446" height="680" frameX="-166" frameY="-36" frameWidth="612" frameHeight="717"/>
+	<SubTexture name="Painter Note Up0011" x="4414" y="1469" width="446" height="680" frameX="-166" frameY="-36" frameWidth="612" frameHeight="717"/>
+	<SubTexture name="Painter Note Up0012" x="4862" y="1469" width="446" height="680" frameX="-166" frameY="-36" frameWidth="612" frameHeight="717"/>
+	<SubTexture name="Painter Note Up0013" x="5310" y="1469" width="446" height="680" frameX="-166" frameY="-36" frameWidth="612" frameHeight="717"/>
+</TextureAtlas>

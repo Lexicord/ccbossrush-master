@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Sitbarian.png">
+<!-- Created with Kades Custom Converter -->
+<SubTexture name="Finale Sitbarian0001.png" x="1" y="1" width="381" height="438" frameX="-0" frameY="-0" frameWidth="381" frameHeight="438"/>
+<SubTexture name="Finale Sitbarian0002.png" x="384" y="1" width="381" height="438" frameX="-0" frameY="-0" frameWidth="381" frameHeight="438"/>
+<SubTexture name="Finale Sitbarian0003.png" x="767" y="1" width="381" height="438" frameX="-0" frameY="-0" frameWidth="381" frameHeight="438"/>
+<SubTexture name="Finale Sitbarian0004.png" x="1150" y="1" width="381" height="438" frameX="-0" frameY="-0" frameWidth="381" frameHeight="438"/>
+<SubTexture name="Finale Sitbarian0005.png" x="1" y="441" width="381" height="438" frameX="-0" frameY="-0" frameWidth="381" frameHeight="438"/>
+<SubTexture name="Finale Sitbarian0006.png" x="384" y="441" width="381" height="438" frameX="-0" frameY="-0" frameWidth="381" frameHeight="438"/>
+<SubTexture name="Finale Sitbarian0007.png" x="767" y="441" width="381" height="438" frameX="-0" frameY="-0" frameWidth="381" frameHeight="438"/>
+<SubTexture name="Finale Sitbarian0008.png" x="1150" y="441" width="381" height="438" frameX="-0" frameY="-0" frameWidth="381" frameHeight="438"/>
+<SubTexture name="Finale Sitbarian0009.png" x="1" y="881" width="381" height="438" frameX="-0" frameY="-0" frameWidth="381" frameHeight="438"/>
+<SubTexture name="Finale Sitbarian0010.png" x="384" y="881" width="381" height="438" frameX="-0" frameY="-0" frameWidth="381" frameHeight="438"/>
+<SubTexture name="Finale Sitbarian0011.png" x="767" y="881" width="381" height="438" frameX="-0" frameY="-0" frameWidth="381" frameHeight="438"/>
+<SubTexture name="Finale Sitbarian0012.png" x="1150" y="881" width="381" height="438" frameX="-0" frameY="-0" frameWidth="381" frameHeight="438"/>
+<SubTexture name="Finale Sitbarian0013.png" x="1533" y="1" width="381" height="438" frameX="-0" frameY="-0" frameWidth="381" frameHeight="438"/>
+<SubTexture name="Finale Sitbarian0014.png" x="1533" y="441" width="381" height="438" frameX="-0" frameY="-0" frameWidth="381" frameHeight="438"/>
+</TextureAtlas>

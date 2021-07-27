@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="torch.png">
+	<!-- Created with Adobe Animate version 21.0.4.39603 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="torchflames0000" x="0" y="0" width="2472" height="772" frameX="0" frameY="0" frameWidth="2476" frameHeight="772"/>
+	<SubTexture name="torchflames0001" x="0" y="0" width="2472" height="772" frameX="0" frameY="0" frameWidth="2476" frameHeight="772"/>
+	<SubTexture name="torchflames0002" x="0" y="0" width="2472" height="772" frameX="0" frameY="0" frameWidth="2476" frameHeight="772"/>
+	<SubTexture name="torchflames0003" x="0" y="774" width="2475" height="639" frameX="0" frameY="-133" frameWidth="2476" frameHeight="772"/>
+	<SubTexture name="torchflames0004" x="0" y="774" width="2475" height="639" frameX="0" frameY="-133" frameWidth="2476" frameHeight="772"/>
+	<SubTexture name="torchflames0005" x="0" y="774" width="2475" height="639" frameX="0" frameY="-133" frameWidth="2476" frameHeight="772"/>
+	<SubTexture name="torchflames0006" x="0" y="1415" width="2472" height="701" frameX="0" frameY="-71" frameWidth="2476" frameHeight="772"/>
+	<SubTexture name="torchflames0007" x="0" y="1415" width="2472" height="701" frameX="0" frameY="-71" frameWidth="2476" frameHeight="772"/>
+	<SubTexture name="torchflames0008" x="0" y="1415" width="2472" height="701" frameX="0" frameY="-71" frameWidth="2476" frameHeight="772"/>
+	<SubTexture name="torchflames0009" x="0" y="2118" width="2476" height="687" frameX="0" frameY="-85" frameWidth="2476" frameHeight="772"/>
+	<SubTexture name="torchflames0010" x="0" y="2118" width="2476" height="687" frameX="0" frameY="-85" frameWidth="2476" frameHeight="772"/>
+	<SubTexture name="torchflames0011" x="0" y="2118" width="2476" height="687" frameX="0" frameY="-85" frameWidth="2476" frameHeight="772"/>
+	<SubTexture name="torchflames0012" x="0" y="2807" width="2472" height="733" frameX="0" frameY="-39" frameWidth="2476" frameHeight="772"/>
+	<SubTexture name="torchflames0013" x="0" y="2807" width="2472" height="733" frameX="0" frameY="-39" frameWidth="2476" frameHeight="772"/>
+</TextureAtlas>

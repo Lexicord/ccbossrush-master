@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="up.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Spider Note Up0000" x="0" y="0" width="3438" height="2374" frameX="0" frameY="0" frameWidth="3438" frameHeight="2506"/>
+	<SubTexture name="Spider Note Up0001" x="3440" y="0" width="3389" height="2404" frameX="-44" frameY="-33" frameWidth="3438" frameHeight="2506"/>
+	<SubTexture name="Spider Note Up0002" x="0" y="2406" width="3180" height="2339" frameX="-144" frameY="-136" frameWidth="3438" frameHeight="2506"/>
+	<SubTexture name="Spider Note Up0003" x="3182" y="2406" width="2850" height="2095" frameX="-324" frameY="-397" frameWidth="3438" frameHeight="2506"/>
+	<SubTexture name="Spider Note Up0004" x="0" y="4747" width="2783" height="2170" frameX="-332" frameY="-336" frameWidth="3438" frameHeight="2506"/>
+	<SubTexture name="Spider Note Up0005" x="0" y="4747" width="2783" height="2170" frameX="-332" frameY="-336" frameWidth="3438" frameHeight="2506"/>
+	<SubTexture name="Spider Note Up0006" x="0" y="4747" width="2783" height="2170" frameX="-332" frameY="-336" frameWidth="3438" frameHeight="2506"/>
+	<SubTexture name="Spider Note Up0007" x="0" y="4747" width="2783" height="2170" frameX="-332" frameY="-336" frameWidth="3438" frameHeight="2506"/>
+	<SubTexture name="Spider Note Up0008" x="0" y="4747" width="2783" height="2170" frameX="-332" frameY="-336" frameWidth="3438" frameHeight="2506"/>
+	<SubTexture name="Spider Note Up0009" x="0" y="4747" width="2783" height="2170" frameX="-332" frameY="-336" frameWidth="3438" frameHeight="2506"/>
+	<SubTexture name="Spider Note Up0010" x="0" y="4747" width="2783" height="2170" frameX="-332" frameY="-336" frameWidth="3438" frameHeight="2506"/>
+	<SubTexture name="Spider Note Up0011" x="0" y="4747" width="2783" height="2170" frameX="-332" frameY="-336" frameWidth="3438" frameHeight="2506"/>
+	<SubTexture name="Spider Note Up0012" x="0" y="4747" width="2783" height="2170" frameX="-332" frameY="-336" frameWidth="3438" frameHeight="2506"/>
+	<SubTexture name="Spider Note Up0013" x="0" y="4747" width="2783" height="2170" frameX="-332" frameY="-336" frameWidth="3438" frameHeight="2506"/>
+</TextureAtlas>

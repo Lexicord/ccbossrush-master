@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ccmenuassets.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Achievements basic0000" x="0" y="0" width="532" height="139"/>
+	<SubTexture name="Achievements basic0001" x="0" y="0" width="532" height="139"/>
+	<SubTexture name="Achievements basic0002" x="534" y="0" width="532" height="139"/>
+	<SubTexture name="Achievements basic0003" x="534" y="0" width="532" height="139"/>
+	<SubTexture name="Achievements white0000" x="1068" y="0" width="537" height="145"/>
+	<SubTexture name="Achievements white0001" x="1068" y="0" width="537" height="145"/>
+	<SubTexture name="Achievements white0002" x="0" y="147" width="537" height="145"/>
+	<SubTexture name="Achievements white0003" x="0" y="147" width="537" height="145"/>
+	<SubTexture name="Boss Rush basic0000" x="539" y="147" width="533" height="139"/>
+	<SubTexture name="Boss Rush basic0001" x="539" y="147" width="533" height="139"/>
+	<SubTexture name="Boss Rush basic0002" x="1074" y="147" width="533" height="139"/>
+	<SubTexture name="Boss Rush basic0003" x="1074" y="147" width="533" height="139"/>
+	<SubTexture name="Boss Rush white0000" x="0" y="294" width="538" height="146"/>
+	<SubTexture name="Boss Rush white0001" x="0" y="294" width="538" height="146"/>
+	<SubTexture name="Boss Rush white0002" x="540" y="294" width="538" height="145" frameX="0" frameY="0" frameWidth="538" frameHeight="146"/>
+	<SubTexture name="Boss Rush white0003" x="540" y="294" width="538" height="145" frameX="0" frameY="0" frameWidth="538" frameHeight="146"/>
+	<SubTexture name="Freeplay basic0000" x="1080" y="294" width="532" height="139"/>
+	<SubTexture name="Freeplay basic0001" x="1080" y="294" width="532" height="139"/>
+	<SubTexture name="Freeplay basic0002" x="0" y="442" width="532" height="139"/>
+	<SubTexture name="Freeplay basic0003" x="0" y="442" width="532" height="139"/>
+	<SubTexture name="Freeplay white0000" x="534" y="442" width="537" height="145"/>
+	<SubTexture name="Freeplay white0001" x="534" y="442" width="537" height="145"/>
+	<SubTexture name="Freeplay white0002" x="1073" y="442" width="537" height="145"/>
+	<SubTexture name="Freeplay white0003" x="1073" y="442" width="537" height="145"/>
+	<SubTexture name="Options basic0000" x="0" y="589" width="532" height="139"/>
+	<SubTexture name="Options basic0001" x="0" y="589" width="532" height="139"/>
+	<SubTexture name="Options basic0002" x="534" y="589" width="532" height="139"/>
+	<SubTexture name="Options basic0003" x="534" y="589" width="532" height="139"/>
+	<SubTexture name="Options white0000" x="1068" y="589" width="537" height="145"/>
+	<SubTexture name="Options white0001" x="1068" y="589" width="537" height="145"/>
+	<SubTexture name="Options white0002" x="0" y="736" width="537" height="145"/>
+	<SubTexture name="Options white0003" x="0" y="736" width="537" height="145"/>
+	<SubTexture name="Skins basic0000" x="539" y="736" width="532" height="139"/>
+	<SubTexture name="Skins basic0001" x="539" y="736" width="532" height="139"/>
+	<SubTexture name="Skins basic0002" x="1073" y="736" width="532" height="139"/>
+	<SubTexture name="Skins basic0003" x="1073" y="736" width="532" height="139"/>
+	<SubTexture name="Skins white0000" x="0" y="883" width="537" height="145" frameX="0" frameY="0" frameWidth="537" frameHeight="146"/>
+	<SubTexture name="Skins white0001" x="0" y="883" width="537" height="145" frameX="0" frameY="0" frameWidth="537" frameHeight="146"/>
+	<SubTexture name="Skins white0002" x="539" y="883" width="537" height="146"/>
+	<SubTexture name="Skins white0003" x="539" y="883" width="537" height="146"/>
+</TextureAtlas>

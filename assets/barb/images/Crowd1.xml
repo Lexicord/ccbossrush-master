@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Crowd1.png">
+<!-- Created with Kades Custom Converter -->
+<SubTexture name="Crowd1 generic0001.png" x="1" y="1" width="1184" height="1303" frameX="-0" frameY="-0" frameWidth="1184" frameHeight="1303"/>
+<SubTexture name="Crowd1 generic0002.png" x="1187" y="1" width="1184" height="1303" frameX="-0" frameY="-0" frameWidth="1184" frameHeight="1303"/>
+<SubTexture name="Crowd1 generic0003.png" x="2373" y="1" width="1184" height="1303" frameX="-0" frameY="-0" frameWidth="1184" frameHeight="1303"/>
+<SubTexture name="Crowd1 generic0004.png" x="1" y="1306" width="1184" height="1303" frameX="-0" frameY="-0" frameWidth="1184" frameHeight="1303"/>
+<SubTexture name="Crowd1 generic0005.png" x="1187" y="1306" width="1184" height="1303" frameX="-0" frameY="-0" frameWidth="1184" frameHeight="1303"/>
+<SubTexture name="Crowd1 generic0006.png" x="2373" y="1306" width="1184" height="1303" frameX="-0" frameY="-0" frameWidth="1184" frameHeight="1303"/>
+<SubTexture name="Crowd1 generic0007.png" x="1" y="2611" width="1184" height="1303" frameX="-0" frameY="-0" frameWidth="1184" frameHeight="1303"/>
+<SubTexture name="Crowd1 generic0008.png" x="1187" y="2611" width="1184" height="1303" frameX="-0" frameY="-0" frameWidth="1184" frameHeight="1303"/>
+<SubTexture name="Crowd1 generic0009.png" x="2373" y="2611" width="1184" height="1303" frameX="-0" frameY="-0" frameWidth="1184" frameHeight="1303"/>
+<SubTexture name="Crowd1 generic0010.png" x="3559" y="1" width="1184" height="1303" frameX="-0" frameY="-0" frameWidth="1184" frameHeight="1303"/>
+<SubTexture name="Crowd1 generic0011.png" x="3559" y="1306" width="1184" height="1303" frameX="-0" frameY="-0" frameWidth="1184" frameHeight="1303"/>
+<SubTexture name="Crowd1 generic0012.png" x="3559" y="2611" width="1184" height="1303" frameX="-0" frameY="-0" frameWidth="1184" frameHeight="1303"/>
+</TextureAtlas>

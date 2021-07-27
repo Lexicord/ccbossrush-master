@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="barbchamp.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Barb Idle0000" x="0" y="0" width="1294" height="1116" frameX="-4" frameY="-9" frameWidth="1345" frameHeight="1154"/>
+	<SubTexture name="Barb Idle0001" x="1296" y="0" width="1298" height="1154" frameX="-47" frameY="0" frameWidth="1345" frameHeight="1154"/>
+	<SubTexture name="Barb Idle0002" x="2596" y="0" width="1263" height="1145" frameX="-50" frameY="-7" frameWidth="1345" frameHeight="1154"/>
+	<SubTexture name="Barb Idle0003" x="3861" y="0" width="1291" height="1121" frameX="-16" frameY="-9" frameWidth="1345" frameHeight="1154"/>
+	<SubTexture name="Barb Idle0004" x="0" y="0" width="1294" height="1116" frameX="-4" frameY="-9" frameWidth="1345" frameHeight="1154"/>
+	<SubTexture name="Barb Idle0005" x="5154" y="0" width="1276" height="1114" frameX="-5" frameY="-11" frameWidth="1345" frameHeight="1154"/>
+	<SubTexture name="Barb Idle0006" x="5154" y="0" width="1276" height="1114" frameX="-5" frameY="-11" frameWidth="1345" frameHeight="1154"/>
+	<SubTexture name="Barb Idle0007" x="6432" y="0" width="1268" height="1113" frameX="0" frameY="-11" frameWidth="1345" frameHeight="1154"/>
+	<SubTexture name="Barb Idle0008" x="6432" y="0" width="1268" height="1113" frameX="0" frameY="-11" frameWidth="1345" frameHeight="1154"/>
+	<SubTexture name="Barbarian RIGHT animation0000" x="0" y="1156" width="1537" height="1350" frameX="-66" frameY="-61" frameWidth="1603" frameHeight="1411"/>
+	<SubTexture name="Barbarian RIGHT animation0001" x="1539" y="1156" width="1473" height="1305" frameX="-58" frameY="-20" frameWidth="1603" frameHeight="1411"/>
+	<SubTexture name="Barbarian RIGHT animation0002" x="3014" y="1156" width="1395" height="1278" frameX="-41" frameY="-7" frameWidth="1603" frameHeight="1411"/>
+	<SubTexture name="Barbarian RIGHT animation0003" x="4411" y="1156" width="1381" height="1276" frameX="-30" frameY="0" frameWidth="1603" frameHeight="1411"/>
+	<SubTexture name="Barbarian RIGHT animation0004" x="5794" y="1156" width="1376" height="1283" frameX="0" frameY="-2" frameWidth="1603" frameHeight="1411"/>
+	<SubTexture name="DOWN0000" x="0" y="2508" width="1689" height="962" frameX="-29" frameY="-94" frameWidth="1718" frameHeight="1056"/>
+	<SubTexture name="DOWN0001" x="1691" y="2508" width="1627" height="987" frameX="-38" frameY="-69" frameWidth="1718" frameHeight="1056"/>
+	<SubTexture name="DOWN0002" x="3320" y="2508" width="1599" height="1017" frameX="-35" frameY="-39" frameWidth="1718" frameHeight="1056"/>
+	<SubTexture name="DOWN0003" x="4921" y="2508" width="1631" height="1044" frameX="-18" frameY="-12" frameWidth="1718" frameHeight="1056"/>
+	<SubTexture name="DOWN0004" x="0" y="3554" width="1659" height="1056" frameX="0" frameY="0" frameWidth="1718" frameHeight="1056"/>
+	<SubTexture name="LEFT pose barbarian0000" x="1661" y="3554" width="1817" height="1081" frameX="0" frameY="0" frameWidth="1829" frameHeight="1081"/>
+	<SubTexture name="LEFT pose barbarian0001" x="3480" y="3554" width="1683" height="1073" frameX="-134" frameY="-8" frameWidth="1829" frameHeight="1081"/>
+	<SubTexture name="LEFT pose barbarian0002" x="5165" y="3554" width="1310" height="1065" frameX="-507" frameY="-16" frameWidth="1829" frameHeight="1081"/>
+	<SubTexture name="LEFT pose barbarian0003" x="6477" y="3554" width="1296" height="1061" frameX="-527" frameY="-20" frameWidth="1829" frameHeight="1081"/>
+	<SubTexture name="LEFT pose barbarian0004" x="0" y="4637" width="1279" height="1060" frameX="-550" frameY="-21" frameWidth="1829" frameHeight="1081"/>
+	<SubTexture name="UP barbarian0000" x="1281" y="4637" width="1529" height="1202" frameX="-12" frameY="0" frameWidth="1541" frameHeight="1202"/>
+	<SubTexture name="UP barbarian0001" x="2812" y="4637" width="1522" height="1177" frameX="-3" frameY="-25" frameWidth="1541" frameHeight="1202"/>
+	<SubTexture name="UP barbarian0002" x="4336" y="4637" width="1489" height="1139" frameX="-15" frameY="-63" frameWidth="1541" frameHeight="1202"/>
+	<SubTexture name="UP barbarian0003" x="5827" y="4637" width="1497" height="1132" frameX="-7" frameY="-70" frameWidth="1541" frameHeight="1202"/>
+	<SubTexture name="UP barbarian0004" x="0" y="5841" width="1505" height="1119" frameX="0" frameY="-83" frameWidth="1541" frameHeight="1202"/>
+</TextureAtlas>

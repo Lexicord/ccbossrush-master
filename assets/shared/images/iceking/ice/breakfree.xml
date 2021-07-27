@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="breakfree.png">
+	<!-- Created with Adobe Animate version 21.0.4.39603 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="forzen break0000" x="0" y="0" width="673" height="552" frameX="-405" frameY="-432" frameWidth="1477" frameHeight="984"/>
+	<SubTexture name="forzen break0001" x="675" y="0" width="882" height="727" frameX="-318" frameY="-233" frameWidth="1477" frameHeight="984"/>
+	<SubTexture name="forzen break0002" x="1559" y="0" width="1227" height="777" frameX="-162" frameY="-87" frameWidth="1477" frameHeight="984"/>
+	<SubTexture name="forzen break0003" x="0" y="779" width="1477" height="856" frameX="0" frameY="0" frameWidth="1477" frameHeight="984"/>
+	<SubTexture name="forzen break0004" x="1479" y="779" width="0" height="0" frameX="0" frameY="0" frameWidth="1477" frameHeight="984"/>
+	<SubTexture name="frozen0000" x="1481" y="779" width="0" height="0" frameX="-107374182" frameY="-107374182" frameWidth="0" frameHeight="0"/>
+	<SubTexture name="frozen0001" x="1481" y="779" width="0" height="0" frameX="-107374182" frameY="-107374182" frameWidth="0" frameHeight="0"/>
+	<SubTexture name="frozen0002" x="1481" y="779" width="0" height="0" frameX="-107374182" frameY="-107374182" frameWidth="0" frameHeight="0"/>
+	<SubTexture name="frozen0003" x="1481" y="779" width="0" height="0" frameX="-107374182" frameY="-107374182" frameWidth="0" frameHeight="0"/>
+	<SubTexture name="frozen0004" x="1481" y="779" width="0" height="0" frameX="-107374182" frameY="-107374182" frameWidth="0" frameHeight="0"/>
+	<SubTexture name="frozen0005" x="1481" y="779" width="0" height="0" frameX="-107374182" frameY="-107374182" frameWidth="0" frameHeight="0"/>
+	<SubTexture name="frozen0006" x="1481" y="779" width="0" height="0" frameX="-107374182" frameY="-107374182" frameWidth="0" frameHeight="0"/>
+	<SubTexture name="frozen0007" x="1481" y="779" width="0" height="0" frameX="-107374182" frameY="-107374182" frameWidth="0" frameHeight="0"/>
+	<SubTexture name="frozen0008" x="1481" y="779" width="0" height="0" frameX="-107374182" frameY="-107374182" frameWidth="0" frameHeight="0"/>
+	<SubTexture name="frozen0009" x="1481" y="779" width="0" height="0" frameX="-107374182" frameY="-107374182" frameWidth="0" frameHeight="0"/>
+	<SubTexture name="frozen0010" x="1481" y="779" width="0" height="0" frameX="-107374182" frameY="-107374182" frameWidth="0" frameHeight="0"/>
+	<SubTexture name="frozen0011" x="1481" y="779" width="0" height="0" frameX="-107374182" frameY="-107374182" frameWidth="0" frameHeight="0"/>
+	<SubTexture name="frozen0012" x="1481" y="779" width="0" height="0" frameX="-107374182" frameY="-107374182" frameWidth="0" frameHeight="0"/>
+	<SubTexture name="frozen0013" x="1481" y="779" width="0" height="0" frameX="-107374182" frameY="-107374182" frameWidth="0" frameHeight="0"/>
+</TextureAtlas>

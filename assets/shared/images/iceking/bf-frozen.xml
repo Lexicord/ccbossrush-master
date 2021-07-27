@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bf-frozen.png">
+	<!-- Created with Adobe Animate version 21.0.4.39603 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="frozen idle0000" x="0" y="0" width="751" height="528" frameX="0" frameY="-36" frameWidth="751" frameHeight="564"/>
+	<SubTexture name="frozen idle0001" x="0" y="0" width="751" height="528" frameX="0" frameY="-36" frameWidth="751" frameHeight="564"/>
+	<SubTexture name="frozen idle0002" x="753" y="0" width="725" height="548" frameX="-13" frameY="-16" frameWidth="751" frameHeight="564"/>
+	<SubTexture name="frozen idle0003" x="753" y="0" width="725" height="548" frameX="-13" frameY="-16" frameWidth="751" frameHeight="564"/>
+	<SubTexture name="frozen idle0004" x="1480" y="0" width="709" height="558" frameX="-21" frameY="-6" frameWidth="751" frameHeight="564"/>
+	<SubTexture name="frozen idle0005" x="1480" y="0" width="709" height="558" frameX="-21" frameY="-6" frameWidth="751" frameHeight="564"/>
+	<SubTexture name="frozen idle0006" x="2191" y="0" width="695" height="564" frameX="-28" frameY="0" frameWidth="751" frameHeight="564"/>
+	<SubTexture name="frozen idle0007" x="2191" y="0" width="695" height="564" frameX="-28" frameY="0" frameWidth="751" frameHeight="564"/>
+	<SubTexture name="frozen idle0008" x="2191" y="0" width="695" height="564" frameX="-28" frameY="0" frameWidth="751" frameHeight="564"/>
+	<SubTexture name="frozen idle0009" x="2191" y="0" width="695" height="564" frameX="-28" frameY="0" frameWidth="751" frameHeight="564"/>
+	<SubTexture name="frozen idle0010" x="2191" y="0" width="695" height="564" frameX="-28" frameY="0" frameWidth="751" frameHeight="564"/>
+	<SubTexture name="frozen idle0011" x="2191" y="0" width="695" height="564" frameX="-28" frameY="0" frameWidth="751" frameHeight="564"/>
+	<SubTexture name="frozen idle0012" x="2191" y="0" width="695" height="564" frameX="-28" frameY="0" frameWidth="751" frameHeight="564"/>
+	<SubTexture name="frozen idle0013" x="2191" y="0" width="695" height="564" frameX="-28" frameY="0" frameWidth="751" frameHeight="564"/>
+	<SubTexture name="frozen shake0000" x="2888" y="0" width="766" height="721" frameX="-27" frameY="0" frameWidth="819" frameHeight="721"/>
+	<SubTexture name="frozen shake0001" x="0" y="723" width="819" height="666" frameX="0" frameY="-55" frameWidth="819" frameHeight="721"/>
+	<SubTexture name="frozen shake0002" x="821" y="723" width="743" height="552" frameX="-38" frameY="-169" frameWidth="819" frameHeight="721"/>
+	<SubTexture name="frozen shake0003" x="2191" y="0" width="695" height="564" frameX="-62" frameY="-157" frameWidth="751" frameHeight="564"/>
+	<SubTexture name="frozen shake0004" x="2191" y="0" width="695" height="564" frameX="-62" frameY="-157" frameWidth="751" frameHeight="564"/>
+	<SubTexture name="frozen shake0005" x="2191" y="0" width="695" height="564" frameX="-62" frameY="-157" frameWidth="751" frameHeight="564"/>
+	<SubTexture name="frozen shake0006" x="2191" y="0" width="695" height="564" frameX="-62" frameY="-157" frameWidth="751" frameHeight="564"/>
+	<SubTexture name="frozen shake0007" x="2191" y="0" width="695" height="564" frameX="-62" frameY="-157" frameWidth="751" frameHeight="564"/>
+	<SubTexture name="frozen shake0008" x="2191" y="0" width="695" height="564" frameX="-62" frameY="-157" frameWidth="751" frameHeight="564"/>
+	<SubTexture name="frozen shake0009" x="2191" y="0" width="695" height="564" frameX="-62" frameY="-157" frameWidth="751" frameHeight="564"/>
+	<SubTexture name="frozen shake0010" x="2191" y="0" width="695" height="564" frameX="-62" frameY="-157" frameWidth="751" frameHeight="564"/>
+	<SubTexture name="frozen shake0011" x="2191" y="0" width="695" height="564" frameX="-62" frameY="-157" frameWidth="751" frameHeight="564"/>
+	<SubTexture name="frozen shake0012" x="2191" y="0" width="695" height="564" frameX="-62" frameY="-157" frameWidth="751" frameHeight="564"/>
+	<SubTexture name="frozen shake0013" x="2191" y="0" width="695" height="564" frameX="-62" frameY="-157" frameWidth="751" frameHeight="564"/>
+</TextureAtlas>

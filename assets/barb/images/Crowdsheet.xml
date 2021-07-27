@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="CrowdSheet.png">
+<!-- Created with Kades Custom Converter -->
+<SubTexture name="Crowd Mechanic0000" x="1" y="1" width="3371" height="2925" frameX="-0" frameY="-0" frameWidth="3371" frameHeight="2925"/>
+<SubTexture name="Crowd Mechanic0001" x="3374" y="1" width="3371" height="2925" frameX="-0" frameY="-0" frameWidth="3371" frameHeight="2925"/>
+<SubTexture name="Crowd Mechanic0002" x="6747" y="1" width="3371" height="2925" frameX="-0" frameY="-0" frameWidth="3371" frameHeight="2925"/>
+<SubTexture name="Crowd Mechanic0003" x="1" y="2928" width="3371" height="2925" frameX="-0" frameY="-0" frameWidth="3371" frameHeight="2925"/>
+<SubTexture name="Crowd Mechanic0004" x="3374" y="2928" width="3371" height="2925" frameX="-0" frameY="-0" frameWidth="3371" frameHeight="2925"/>
+<SubTexture name="Crowd Mechanic0005" x="6747" y="2928" width="3371" height="2925" frameX="-0" frameY="-0" frameWidth="3371" frameHeight="2925"/>
+<SubTexture name="Crowd Mechanic0006" x="1" y="5855" width="3371" height="2925" frameX="-0" frameY="-0" frameWidth="3371" frameHeight="2925"/>
+<SubTexture name="Crowd Mechanic0007" x="3374" y="5855" width="3371" height="2925" frameX="-0" frameY="-0" frameWidth="3371" frameHeight="2925"/>
+<SubTexture name="Crowd Mechanic0008" x="6747" y="5855" width="3371" height="2925" frameX="-0" frameY="-0" frameWidth="3371" frameHeight="2925"/>
+<SubTexture name="Crowd Mechanic0009" x="1" y="8782" width="3371" height="2925" frameX="-0" frameY="-0" frameWidth="3371" frameHeight="2925"/>
+<SubTexture name="Crowd Mechanic0010" x="3374" y="8782" width="3371" height="2925" frameX="-0" frameY="-0" frameWidth="3371" frameHeight="2925"/>
+<SubTexture name="Crowd Mechanic0011" x="6747" y="8782" width="3371" height="2925" frameX="-0" frameY="-0" frameWidth="3371" frameHeight="2925"/>
+<SubTexture name="Crowd Mechanic0012" x="10120" y="1" width="3371" height="2925" frameX="-0" frameY="-0" frameWidth="3371" frameHeight="2925"/>
+<SubTexture name="Crowd Mechanic0013" x="10120" y="2928" width="3371" height="2925" frameX="-0" frameY="-0" frameWidth="3371" frameHeight="2925"/>
+<SubTexture name="Crowd Mechanic0014" x="10120" y="5855" width="3371" height="2925" frameX="-0" frameY="-0" frameWidth="3371" frameHeight="2925"/>
+<SubTexture name="Crowd Mechanic0015" x="10120" y="8782" width="3371" height="2925" frameX="-0" frameY="-0" frameWidth="3371" frameHeight="2925"/>
+</TextureAtlas>

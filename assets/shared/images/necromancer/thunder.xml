@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="thunder.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="thunder0001" x="0" y="0" width="59" height="93" frameX="-23" frameY="-3" frameWidth="475" frameHeight="602"/>
+	<SubTexture name="thunder0002" x="61" y="0" width="141" height="240" frameX="-13" frameY="-6" frameWidth="475" frameHeight="602"/>
+	<SubTexture name="thunder0002" x="61" y="0" width="141" height="240" frameX="-13" frameY="-6" frameWidth="475" frameHeight="602"/>
+	<SubTexture name="thunder0003" x="204" y="0" width="439" height="601" frameX="0" frameY="0" frameWidth="475" frameHeight="602"/>
+	<SubTexture name="thunder0004" x="204" y="0" width="439" height="601" frameX="0" frameY="0" frameWidth="475" frameHeight="602"/>
+	<SubTexture name="thunder0005" x="645" y="0" width="373" height="331" frameX="-102" frameY="-271" frameWidth="475" frameHeight="602"/>
+	<SubTexture name="thunder0006" x="645" y="0" width="373" height="331" frameX="-102" frameY="-271" frameWidth="475" frameHeight="602"/>
+	<SubTexture name="thunder0007" x="0" y="603" width="316" height="185" frameX="-128" frameY="-411" frameWidth="475" frameHeight="602"/>
+</TextureAtlas>

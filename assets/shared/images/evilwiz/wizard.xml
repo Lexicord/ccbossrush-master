@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="evil_wizard.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Evil Wizard Idle Dance0000" x="0" y="0" width="584" height="449" frameX="-8" frameY="-17" frameWidth="592" frameHeight="466"/>
+	<SubTexture name="Evil Wizard Idle Dance0001" x="0" y="0" width="584" height="449" frameX="-8" frameY="-17" frameWidth="592" frameHeight="466"/>
+	<SubTexture name="Evil Wizard Idle Dance0002" x="586" y="0" width="573" height="458" frameX="-8" frameY="-8" frameWidth="592" frameHeight="466"/>
+	<SubTexture name="Evil Wizard Idle Dance0003" x="586" y="0" width="573" height="458" frameX="-8" frameY="-8" frameWidth="592" frameHeight="466"/>
+	<SubTexture name="Evil Wizard Idle Dance0004" x="1161" y="0" width="578" height="463" frameX="0" frameY="-3" frameWidth="592" frameHeight="466"/>
+	<SubTexture name="Evil Wizard Idle Dance0005" x="1161" y="0" width="578" height="463" frameX="0" frameY="-3" frameWidth="592" frameHeight="466"/>
+	<SubTexture name="Evil Wizard Idle Dance0006" x="1741" y="0" width="569" height="466" frameX="-2" frameY="0" frameWidth="592" frameHeight="466"/>
+	<SubTexture name="Evil Wizard Idle Dance0007" x="1741" y="0" width="569" height="466" frameX="-2" frameY="0" frameWidth="592" frameHeight="466"/>
+	<SubTexture name="Evil Wizard Idle Dance0008" x="2312" y="0" width="569" height="466" frameX="0" frameY="0" frameWidth="592" frameHeight="466"/>
+	<SubTexture name="Evil Wizard Idle Dance0009" x="2312" y="0" width="569" height="466" frameX="0" frameY="0" frameWidth="592" frameHeight="466"/>
+	<SubTexture name="Evil Wizard Idle Dance0010" x="2312" y="0" width="569" height="466" frameX="0" frameY="0" frameWidth="592" frameHeight="466"/>
+	<SubTexture name="Evil Wizard Idle Dance0011" x="2312" y="0" width="569" height="466" frameX="0" frameY="0" frameWidth="592" frameHeight="466"/>
+	<SubTexture name="Evil Wizard Idle Dance0012" x="2312" y="0" width="569" height="466" frameX="0" frameY="0" frameWidth="592" frameHeight="466"/>
+	<SubTexture name="Evil Wizard Idle Dance0013" x="2312" y="0" width="569" height="466" frameX="0" frameY="0" frameWidth="592" frameHeight="466"/>
+	<SubTexture name="Evil Wizard Note Down0000" x="2883" y="0" width="453" height="578" frameX="0" frameY="-62" frameWidth="453" frameHeight="640"/>
+	<SubTexture name="Evil Wizard Note Down0001" x="3338" y="0" width="435" height="595" frameX="-12" frameY="-45" frameWidth="453" frameHeight="640"/>
+	<SubTexture name="Evil Wizard Note Down0002" x="0" y="597" width="404" height="621" frameX="-31" frameY="-18" frameWidth="453" frameHeight="640"/>
+	<SubTexture name="Evil Wizard Note Down0003" x="406" y="597" width="393" height="639" frameX="-37" frameY="0" frameWidth="453" frameHeight="640"/>
+	<SubTexture name="Evil Wizard Note Down0004" x="801" y="597" width="403" height="621" frameX="-31" frameY="-18" frameWidth="453" frameHeight="640"/>
+	<SubTexture name="Evil Wizard Note Down0005" x="801" y="597" width="403" height="621" frameX="-31" frameY="-18" frameWidth="453" frameHeight="640"/>
+	<SubTexture name="Evil Wizard Note Down0006" x="801" y="597" width="403" height="621" frameX="-31" frameY="-18" frameWidth="453" frameHeight="640"/>
+	<SubTexture name="Evil Wizard Note Down0007" x="801" y="597" width="403" height="621" frameX="-31" frameY="-18" frameWidth="453" frameHeight="640"/>
+	<SubTexture name="Evil Wizard Note Down0008" x="801" y="597" width="403" height="621" frameX="-31" frameY="-18" frameWidth="453" frameHeight="640"/>
+	<SubTexture name="Evil Wizard Note Down0009" x="801" y="597" width="403" height="621" frameX="-31" frameY="-18" frameWidth="453" frameHeight="640"/>
+	<SubTexture name="Evil Wizard Note Down0010" x="801" y="597" width="403" height="621" frameX="-31" frameY="-18" frameWidth="453" frameHeight="640"/>
+	<SubTexture name="Evil Wizard Note Down0011" x="801" y="597" width="403" height="621" frameX="-31" frameY="-18" frameWidth="453" frameHeight="640"/>
+	<SubTexture name="Evil Wizard Note Down0012" x="801" y="597" width="403" height="621" frameX="-31" frameY="-18" frameWidth="453" frameHeight="640"/>
+	<SubTexture name="Evil Wizard Note Down0013" x="801" y="597" width="403" height="621" frameX="-31" frameY="-18" frameWidth="453" frameHeight="640"/>
+	<SubTexture name="Evil Wizard Note Left0000" x="1206" y="597" width="646" height="510"/>
+	<SubTexture name="Evil Wizard Note Left0001" x="1854" y="597" width="637" height="495" frameX="-3" frameY="-15" frameWidth="646" frameHeight="510"/>
+	<SubTexture name="Evil Wizard Note Left0002" x="2493" y="597" width="627" height="455" frameX="-16" frameY="-55" frameWidth="646" frameHeight="510"/>
+	<SubTexture name="Evil Wizard Note Left0003" x="3122" y="597" width="569" height="477" frameX="-34" frameY="-33" frameWidth="646" frameHeight="510"/>
+	<SubTexture name="Evil Wizard Note Left0004" x="0" y="1238" width="582" height="468" frameX="-30" frameY="-42" frameWidth="646" frameHeight="510"/>
+	<SubTexture name="Evil Wizard Note Left0005" x="0" y="1238" width="582" height="468" frameX="-30" frameY="-42" frameWidth="646" frameHeight="510"/>
+	<SubTexture name="Evil Wizard Note Left0006" x="0" y="1238" width="582" height="468" frameX="-30" frameY="-42" frameWidth="646" frameHeight="510"/>
+	<SubTexture name="Evil Wizard Note Left0007" x="0" y="1238" width="582" height="468" frameX="-30" frameY="-42" frameWidth="646" frameHeight="510"/>
+	<SubTexture name="Evil Wizard Note Left0008" x="0" y="1238" width="582" height="468" frameX="-30" frameY="-42" frameWidth="646" frameHeight="510"/>
+	<SubTexture name="Evil Wizard Note Left0009" x="0" y="1238" width="582" height="468" frameX="-30" frameY="-42" frameWidth="646" frameHeight="510"/>
+	<SubTexture name="Evil Wizard Note Left0010" x="0" y="1238" width="582" height="468" frameX="-30" frameY="-42" frameWidth="646" frameHeight="510"/>
+	<SubTexture name="Evil Wizard Note Left0011" x="0" y="1238" width="582" height="468" frameX="-30" frameY="-42" frameWidth="646" frameHeight="510"/>
+	<SubTexture name="Evil Wizard Note Left0012" x="0" y="1238" width="582" height="468" frameX="-30" frameY="-42" frameWidth="646" frameHeight="510"/>
+	<SubTexture name="Evil Wizard Note Left0013" x="0" y="1238" width="582" height="468" frameX="-30" frameY="-42" frameWidth="646" frameHeight="510"/>
+	<SubTexture name="Evil Wizard Note Right0000" x="584" y="1238" width="605" height="497" frameX="-9" frameY="0" frameWidth="614" frameHeight="497"/>
+	<SubTexture name="Evil Wizard Note Right0001" x="1191" y="1238" width="579" height="494" frameX="-12" frameY="-3" frameWidth="614" frameHeight="497"/>
+	<SubTexture name="Evil Wizard Note Right0002" x="1772" y="1238" width="602" height="457" frameX="0" frameY="-40" frameWidth="614" frameHeight="497"/>
+	<SubTexture name="Evil Wizard Note Right0003" x="2376" y="1238" width="551" height="481" frameX="-13" frameY="-16" frameWidth="614" frameHeight="497"/>
+	<SubTexture name="Evil Wizard Note Right0004" x="2929" y="1238" width="559" height="465" frameX="-11" frameY="-32" frameWidth="614" frameHeight="497"/>
+	<SubTexture name="Evil Wizard Note Right0005" x="2929" y="1238" width="559" height="465" frameX="-11" frameY="-32" frameWidth="614" frameHeight="497"/>
+	<SubTexture name="Evil Wizard Note Right0006" x="2929" y="1238" width="559" height="465" frameX="-11" frameY="-32" frameWidth="614" frameHeight="497"/>
+	<SubTexture name="Evil Wizard Note Right0007" x="2929" y="1238" width="559" height="465" frameX="-11" frameY="-32" frameWidth="614" frameHeight="497"/>
+	<SubTexture name="Evil Wizard Note Right0008" x="2929" y="1238" width="559" height="465" frameX="-11" frameY="-32" frameWidth="614" frameHeight="497"/>
+	<SubTexture name="Evil Wizard Note Right0009" x="2929" y="1238" width="559" height="465" frameX="-11" frameY="-32" frameWidth="614" frameHeight="497"/>
+	<SubTexture name="Evil Wizard Note Right0010" x="2929" y="1238" width="559" height="465" frameX="-11" frameY="-32" frameWidth="614" frameHeight="497"/>
+	<SubTexture name="Evil Wizard Note Right0011" x="2929" y="1238" width="559" height="465" frameX="-11" frameY="-32" frameWidth="614" frameHeight="497"/>
+	<SubTexture name="Evil Wizard Note Right0012" x="2929" y="1238" width="559" height="465" frameX="-11" frameY="-32" frameWidth="614" frameHeight="497"/>
+	<SubTexture name="Evil Wizard Note Right0013" x="2929" y="1238" width="559" height="465" frameX="-11" frameY="-32" frameWidth="614" frameHeight="497"/>
+	<SubTexture name="Evil Wizard Note Up0000" x="3490" y="1238" width="391" height="680" frameX="-367" frameY="0" frameWidth="758" frameHeight="680"/>
+	<SubTexture name="Evil Wizard Note Up0001" x="0" y="1920" width="456" height="629" frameX="-283" frameY="-51" frameWidth="758" frameHeight="680"/>
+	<SubTexture name="Evil Wizard Note Up0002" x="458" y="1920" width="703" height="481" frameX="-27" frameY="-199" frameWidth="758" frameHeight="680"/>
+	<SubTexture name="Evil Wizard Note Up0003" x="1163" y="1920" width="739" height="461" frameX="0" frameY="-219" frameWidth="758" frameHeight="680"/>
+	<SubTexture name="Evil Wizard Note Up0004" x="1904" y="1920" width="701" height="476" frameX="-29" frameY="-204" frameWidth="758" frameHeight="680"/>
+	<SubTexture name="Evil Wizard Note Up0005" x="1904" y="1920" width="701" height="476" frameX="-29" frameY="-204" frameWidth="758" frameHeight="680"/>
+	<SubTexture name="Evil Wizard Note Up0006" x="1904" y="1920" width="701" height="476" frameX="-29" frameY="-204" frameWidth="758" frameHeight="680"/>
+	<SubTexture name="Evil Wizard Note Up0007" x="1904" y="1920" width="701" height="476" frameX="-29" frameY="-204" frameWidth="758" frameHeight="680"/>
+	<SubTexture name="Evil Wizard Note Up0008" x="1904" y="1920" width="701" height="476" frameX="-29" frameY="-204" frameWidth="758" frameHeight="680"/>
+	<SubTexture name="Evil Wizard Note Up0009" x="1904" y="1920" width="701" height="476" frameX="-29" frameY="-204" frameWidth="758" frameHeight="680"/>
+	<SubTexture name="Evil Wizard Note Up0010" x="1904" y="1920" width="701" height="476" frameX="-29" frameY="-204" frameWidth="758" frameHeight="680"/>
+	<SubTexture name="Evil Wizard Note Up0011" x="1904" y="1920" width="701" height="476" frameX="-29" frameY="-204" frameWidth="758" frameHeight="680"/>
+	<SubTexture name="Evil Wizard Note Up0012" x="1904" y="1920" width="701" height="476" frameX="-29" frameY="-204" frameWidth="758" frameHeight="680"/>
+	<SubTexture name="Evil Wizard Note Up0013" x="1904" y="1920" width="701" height="476" frameX="-29" frameY="-204" frameWidth="758" frameHeight="680"/>
+</TextureAtlas>

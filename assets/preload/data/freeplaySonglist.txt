@@ -1,0 +1,7 @@
+Bashing-Drums:barb:8
+Memory-Replevy:cyclops:8
+Smudgy:painter:8
+Frostbite:iceking:8
+Reanimated:necromancer:8
+Subjugation:evilwizard:8
+Arachnophobia:spider:8

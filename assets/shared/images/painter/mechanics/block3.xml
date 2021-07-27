@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="block3.png">
+<SubTexture name="appear0000" x="0" y="0" width="516" height="260" frameX="0" frameY="0" frameWidth="516" frameHeight="260" />
+<SubTexture name="appear0001" x="0" y="0" width="516" height="260" frameX="0" frameY="0" frameWidth="516" frameHeight="260" />
+<SubTexture name="appear0002" x="0" y="0" width="516" height="260" frameX="0" frameY="0" frameWidth="516" frameHeight="260" />
+<SubTexture name="appear0003" x="0" y="0" width="516" height="260" frameX="0" frameY="0" frameWidth="516" frameHeight="260" />
+<SubTexture name="appear0004" x="516" y="0" width="516" height="260" frameX="0" frameY="0" frameWidth="516" frameHeight="260" />
+<SubTexture name="appear0005" x="516" y="0" width="516" height="260" frameX="0" frameY="0" frameWidth="516" frameHeight="260" />
+<SubTexture name="appear0006" x="1032" y="0" width="516" height="260" frameX="0" frameY="0" frameWidth="516" frameHeight="260" />
+</TextureAtlas>

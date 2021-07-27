@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="idle.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Spider Idle Dance0000" x="0" y="0" width="3165" height="1895" frameX="0" frameY="-98" frameWidth="3165" frameHeight="1993"/>
+	<SubTexture name="Spider Idle Dance0001" x="0" y="0" width="3165" height="1895" frameX="0" frameY="-98" frameWidth="3165" frameHeight="1993"/>
+	<SubTexture name="Spider Idle Dance0002" x="3167" y="0" width="3146" height="1949" frameX="-10" frameY="-42" frameWidth="3165" frameHeight="1993"/>
+	<SubTexture name="Spider Idle Dance0003" x="3167" y="0" width="3146" height="1949" frameX="-10" frameY="-42" frameWidth="3165" frameHeight="1993"/>
+	<SubTexture name="Spider Idle Dance0004" x="0" y="1951" width="3120" height="1984" frameX="-23" frameY="-6" frameWidth="3165" frameHeight="1993"/>
+	<SubTexture name="Spider Idle Dance0005" x="0" y="1951" width="3120" height="1984" frameX="-23" frameY="-6" frameWidth="3165" frameHeight="1993"/>
+	<SubTexture name="Spider Idle Dance0006" x="3122" y="1951" width="3103" height="1990" frameX="-31" frameY="0" frameWidth="3165" frameHeight="1993"/>
+	<SubTexture name="Spider Idle Dance0007" x="3122" y="1951" width="3103" height="1990" frameX="-31" frameY="0" frameWidth="3165" frameHeight="1993"/>
+	<SubTexture name="Spider Idle Dance0008" x="3122" y="1951" width="3103" height="1990" frameX="-31" frameY="0" frameWidth="3165" frameHeight="1993"/>
+	<SubTexture name="Spider Idle Dance0009" x="3122" y="1951" width="3103" height="1990" frameX="-31" frameY="0" frameWidth="3165" frameHeight="1993"/>
+	<SubTexture name="Spider Idle Dance0010" x="3122" y="1951" width="3103" height="1990" frameX="-31" frameY="0" frameWidth="3165" frameHeight="1993"/>
+	<SubTexture name="Spider Idle Dance0011" x="3122" y="1951" width="3103" height="1990" frameX="-31" frameY="0" frameWidth="3165" frameHeight="1993"/>
+	<SubTexture name="Spider Idle Dance0012" x="3122" y="1951" width="3103" height="1990" frameX="-31" frameY="0" frameWidth="3165" frameHeight="1993"/>
+	<SubTexture name="Spider Idle Dance0013" x="3122" y="1951" width="3103" height="1990" frameX="-31" frameY="0" frameWidth="3165" frameHeight="1993"/>
+</TextureAtlas>

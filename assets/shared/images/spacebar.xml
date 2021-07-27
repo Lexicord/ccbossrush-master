@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="spacebar.png">
+	<!-- Created with Adobe Animate version 21.0.4.39603 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="spacepress0000" x="0" y="0" width="632" height="413" frameX="-18" frameY="-12" frameWidth="668" frameHeight="438"/>
+	<SubTexture name="spacepress0001" x="634" y="0" width="668" height="438"/>
+	<SubTexture name="spacepress0002" x="634" y="0" width="668" height="438"/>
+	<SubTexture name="spacepress0003" x="1304" y="0" width="654" height="429" frameX="-7" frameY="-4" frameWidth="668" frameHeight="438"/>
+	<SubTexture name="spacepress0004" x="1304" y="0" width="654" height="429" frameX="-7" frameY="-4" frameWidth="668" frameHeight="438"/>
+	<SubTexture name="spacepress0005" x="0" y="440" width="654" height="429" frameX="-7" frameY="-4" frameWidth="668" frameHeight="438"/>
+</TextureAtlas>
