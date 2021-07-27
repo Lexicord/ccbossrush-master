@@ -1,16 +1,21 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <TextureAtlas imagePath="Crowd1.png">
-<!-- Created with Kades Custom Converter -->
-<SubTexture name="Crowd1 generic0001.png" x="1" y="1" width="1184" height="1303" frameX="-0" frameY="-0" frameWidth="1184" frameHeight="1303"/>
-<SubTexture name="Crowd1 generic0002.png" x="1187" y="1" width="1184" height="1303" frameX="-0" frameY="-0" frameWidth="1184" frameHeight="1303"/>
-<SubTexture name="Crowd1 generic0003.png" x="2373" y="1" width="1184" height="1303" frameX="-0" frameY="-0" frameWidth="1184" frameHeight="1303"/>
-<SubTexture name="Crowd1 generic0004.png" x="1" y="1306" width="1184" height="1303" frameX="-0" frameY="-0" frameWidth="1184" frameHeight="1303"/>
-<SubTexture name="Crowd1 generic0005.png" x="1187" y="1306" width="1184" height="1303" frameX="-0" frameY="-0" frameWidth="1184" frameHeight="1303"/>
-<SubTexture name="Crowd1 generic0006.png" x="2373" y="1306" width="1184" height="1303" frameX="-0" frameY="-0" frameWidth="1184" frameHeight="1303"/>
-<SubTexture name="Crowd1 generic0007.png" x="1" y="2611" width="1184" height="1303" frameX="-0" frameY="-0" frameWidth="1184" frameHeight="1303"/>
-<SubTexture name="Crowd1 generic0008.png" x="1187" y="2611" width="1184" height="1303" frameX="-0" frameY="-0" frameWidth="1184" frameHeight="1303"/>
-<SubTexture name="Crowd1 generic0009.png" x="2373" y="2611" width="1184" height="1303" frameX="-0" frameY="-0" frameWidth="1184" frameHeight="1303"/>
-<SubTexture name="Crowd1 generic0010.png" x="3559" y="1" width="1184" height="1303" frameX="-0" frameY="-0" frameWidth="1184" frameHeight="1303"/>
-<SubTexture name="Crowd1 generic0011.png" x="3559" y="1306" width="1184" height="1303" frameX="-0" frameY="-0" frameWidth="1184" frameHeight="1303"/>
-<SubTexture name="Crowd1 generic0012.png" x="3559" y="2611" width="1184" height="1303" frameX="-0" frameY="-0" frameWidth="1184" frameHeight="1303"/>
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="FINALE Crowd Generic10000" x="0" y="0" width="1268" height="1224" frameX="0" frameY="-23" frameWidth="1268" frameHeight="1247"/>
+	<SubTexture name="FINALE Crowd Generic10001" x="0" y="0" width="1268" height="1224" frameX="0" frameY="-23" frameWidth="1268" frameHeight="1247"/>
+	<SubTexture name="FINALE Crowd Generic10002" x="1270" y="0" width="1246" height="1239" frameX="-17" frameY="-8" frameWidth="1268" frameHeight="1247"/>
+	<SubTexture name="FINALE Crowd Generic10003" x="1270" y="0" width="1246" height="1239" frameX="-17" frameY="-8" frameWidth="1268" frameHeight="1247"/>
+	<SubTexture name="FINALE Crowd Generic10004" x="2518" y="0" width="1226" height="1247" frameX="-31" frameY="0" frameWidth="1268" frameHeight="1247"/>
+	<SubTexture name="FINALE Crowd Generic10005" x="2518" y="0" width="1226" height="1247" frameX="-31" frameY="0" frameWidth="1268" frameHeight="1247"/>
+	<SubTexture name="FINALE Crowd Generic10006" x="2518" y="0" width="1226" height="1247" frameX="-31" frameY="0" frameWidth="1268" frameHeight="1247"/>
+	<SubTexture name="FINALE Crowd Generic10007" x="2518" y="0" width="1226" height="1247" frameX="-31" frameY="0" frameWidth="1268" frameHeight="1247"/>
+	<SubTexture name="FINALE Crowd Generic10008" x="0" y="0" width="1268" height="1224" frameX="0" frameY="-23" frameWidth="1268" frameHeight="1247"/>
+	<SubTexture name="FINALE Crowd Generic10009" x="0" y="0" width="1268" height="1224" frameX="0" frameY="-23" frameWidth="1268" frameHeight="1247"/>
+	<SubTexture name="FINALE Crowd Generic10010" x="1270" y="0" width="1246" height="1239" frameX="-17" frameY="-8" frameWidth="1268" frameHeight="1247"/>
+	<SubTexture name="FINALE Crowd Generic10011" x="1270" y="0" width="1246" height="1239" frameX="-17" frameY="-8" frameWidth="1268" frameHeight="1247"/>
+	<SubTexture name="FINALE Crowd Generic10012" x="2518" y="0" width="1226" height="1247" frameX="-31" frameY="0" frameWidth="1268" frameHeight="1247"/>
+	<SubTexture name="FINALE Crowd Generic10013" x="2518" y="0" width="1226" height="1247" frameX="-31" frameY="0" frameWidth="1268" frameHeight="1247"/>
+	<SubTexture name="FINALE Crowd Generic10014" x="2518" y="0" width="1226" height="1247" frameX="-31" frameY="0" frameWidth="1268" frameHeight="1247"/>
+	<SubTexture name="FINALE Crowd Generic10015" x="2518" y="0" width="1226" height="1247" frameX="-31" frameY="0" frameWidth="1268" frameHeight="1247"/>
 </TextureAtlas>
