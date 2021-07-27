@@ -174,10 +174,10 @@ class Character extends FlxSprite
 				animation.addByPrefix('singLEFT', 'Ice Note Left', 24);
 
 				addOffset('idle');
-				addOffset("singUP", 390, 215);
-				addOffset("singRIGHT", -10, 33);
-				addOffset("singLEFT", 45, 45);
-				addOffset("singDOWN", 95, 175);
+				addOffset("singUP", 500, 310);
+				addOffset("singRIGHT", -50, 160);
+				addOffset("singLEFT", 220, 10);
+				addOffset("singDOWN", 760, 80);
 
 				playAnim('idle');
 			case 'painter':
