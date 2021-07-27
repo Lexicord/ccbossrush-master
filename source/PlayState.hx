@@ -4252,7 +4252,7 @@ class PlayState extends MusicBeatState
 	}
 	function necrobolt()
 		{
-			candobolt = false;
+			candobolt = true;
 			var spacebarthing:FlxSprite = new FlxSprite(0, 0);			
 			spacebarthing.frames = Paths.getSparrowAtlas('spacebar');
 			spacebarthing.antialiasing = true;
@@ -4263,7 +4263,7 @@ class PlayState extends MusicBeatState
 			add(spacebarthing);
 			spacebarthing.animation.play('pressnow');
 			
-			new FlxTimer().start(0.5, function(tmr:FlxTimer)
+			new FlxTimer().start(0.75, function(tmr:FlxTimer)
 				{
 					candodgebolt = false;
 						var murderbolt:FlxSprite = new FlxSprite(0, 0);
