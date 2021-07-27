@@ -4252,7 +4252,8 @@ class PlayState extends MusicBeatState
 	}
 	function necrobolt()
 		{
-			candobolt = true;
+			candobolt = false;
+			candodgebolt = true;
 			var spacebarthing:FlxSprite = new FlxSprite(0, 0);			
 			spacebarthing.frames = Paths.getSparrowAtlas('spacebar');
 			spacebarthing.antialiasing = true;
