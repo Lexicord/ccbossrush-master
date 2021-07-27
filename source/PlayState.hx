@@ -101,6 +101,7 @@ class PlayState extends MusicBeatState
 
 	var halloweenLevel:Bool = false;
 	public static var foregroundSprites = new FlxTypedGroup<BGSprite>();
+	public static var foregroundSprites2 = new FlxTypedGroup<BGSprite>();
 
 	var songLength:Float = 0;
 	var kadeEngineWatermark:FlxText;
@@ -282,6 +283,7 @@ class PlayState extends MusicBeatState
 		repReleases = 0;
 
 		foregroundSprites = new FlxTypedGroup<BGSprite>();
+		foregroundSprites2 = new FlxTypedGroup<BGSprite>();
 
 
 		PlayStateChangeables.useDownscroll = FlxG.save.data.downscroll;
@@ -688,10 +690,12 @@ class PlayState extends MusicBeatState
 				bg.antialiasing = true;
 				add(bg);
 
-				var leftBoys:BGSprite = new BGSprite("Crowd2","barb",-890, 500,1,1,["FINALE Crowd Generic"], 34);
+				var leftBoys:BGSprite = new BGSprite("Crowd2","barb",-890, 650,1,1,["FINALE Crowd Generic2"], 24);
 				foregroundSprites.add(leftBoys);
-				var rightBoys:BGSprite = new BGSprite("Crowd1","barb",1600, 200,1,1,["Crowd1 generic"], 34);
+				var rightBoys:BGSprite = new BGSprite("Crowd1","barb",1450, 250,1,1,["FINALE Crowd Generic1"], 24);
 				foregroundSprites.add(rightBoys);
+				var drinkBoy:BGSprite = new BGSprite("BarbarianDrink","barb",1650, 780,1,1,["barbariandrink"], 24);
+				foregroundSprites2.add(drinkBoy);
 			}
 			case "cyclopthing":
 			{
@@ -717,7 +721,7 @@ class PlayState extends MusicBeatState
 					fg.antialiasing = true;
 					fg.screenCenter();
 					fg.scrollFactor.set(0.9, 0.9);
-					fg.y += 400;
+					fg.y += 650;
 					add(fg);
 				}
 			case "wizardstage":
@@ -853,35 +857,33 @@ class PlayState extends MusicBeatState
 					defaultCamZoom = 0.75;
 					curStage = 'stage';
 					var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('painter/stage/painterback'));
-					bg.antialiasing = true;
-					bg.scrollFactor.set(0.9, 0.9);
-					bg.active = false;
-					add(bg);
-					
+						bg.antialiasing = true;
+						bg.scrollFactor.set(0.9, 0.9);
+						bg.active = false;
+						add(bg);
 
-					var stageFront:FlxSprite = new FlxSprite(-650, 600).loadGraphic(Paths.image('painter/stage/artground'));
-					stageFront.setGraphicSize(Std.int(stageFront.width / 0.25));
-					stageFront.updateHitbox();
-					stageFront.antialiasing = true;
-					stageFront.scrollFactor.set(0.9, 0.9);
-					stageFront.active = false;
-					add(stageFront);
+						var painting:FlxSprite = new FlxSprite(130, -150).loadGraphic(Paths.image('painter/stage/painting'));
+						painting.setGraphicSize(Std.int(painting.width * 1.1));
+						painting.updateHitbox();
+						painting.antialiasing = true;
+						painting.scrollFactor.set(0.9, 0.9);
+						painting.active = false;
+						add(painting);
+	
+						var stageFront:FlxSprite = new FlxSprite(-570, 600).loadGraphic(Paths.image('painter/stage/artground'));
+						stageFront.setGraphicSize(Std.int(stageFront.width * 1.1));
+						stageFront.updateHitbox();
+						stageFront.antialiasing = true;
+						stageFront.scrollFactor.set(0.9, 0.9);
+						stageFront.active = false;
+						add(stageFront);
 
-					var artthing:FlxSprite = new FlxSprite(0,0).loadGraphic(Paths.image('painter/stage/painting'));
-					artthing.antialiasing = true;
-					artthing.scrollFactor.set(0.9, 0.9);
-					artthing.active = false;
-					artthing.screenCenter();
-					add(artthing);
-
-					var fg:FlxSprite = new FlxSprite(-750, -375).loadGraphic(Paths.image('painter/stage/artshelf'));
-					//fg.setGraphicSize(Std.int(fg.width * 0.75));
-					fg.updateHitbox();
-					fg.antialiasing = true;
-					fg.scrollFactor.set(0.9, 0.9);
-					fg.active = false;
-					add(fg);
-
+						var fg:FlxSprite = new FlxSprite(-600, -500).loadGraphic(Paths.image('painter/stage/artshelf'));
+						fg.updateHitbox();
+						fg.antialiasing = true;
+						fg.scrollFactor.set(0.9, 0.9);
+						fg.active = false;
+						add(fg);
 					bgwhat = new FlxSprite().makeGraphic(FlxG.width, FlxG.height, FlxColor.BLACK);
 					add(bgwhat);
 					bgwhat.visible = false;
@@ -1146,7 +1148,7 @@ class PlayState extends MusicBeatState
 				gf.y += 300;
 			case 'barb':
 				dad.x -= 500;
-				dad.y += 175;
+				dad.y += 270
 				boyfriend.y += 520;
 				gf.y += 375;
 				gf.x += 170;
@@ -1170,6 +1172,7 @@ class PlayState extends MusicBeatState
 			if (curStage == 'barb')
 			{
 				add(foregroundSprites);
+				add(foregroundSprites2);
 			}
 
 
@@ -2289,11 +2292,11 @@ class PlayState extends MusicBeatState
 		#end
 
 		if (curStage == 'barb' && !PlayStateChangeables.Optimize)
-		{
-			for(i in foregroundSprites)
-				if (i.animation.finished)
-					i.dance();
-		}
+			{
+				for(i in foregroundSprites2)
+					if (i.animation.finished)
+						i.dance();
+			}
 
 		if (PlayStateChangeables.botPlay && FlxG.keys.justPressed.ONE)
 			camHUD.visible = !camHUD.visible;
@@ -4364,11 +4367,11 @@ class PlayState extends MusicBeatState
 		}
 	if (curSong.toLowerCase() == 'memory-replevy') //GOD DAMN THIS TOOK SO FUCKING LONG
 		{
-			if (curStep == 383 || curStep == 527 || curStep == 55 || curStep == 575 || curStep == 670 || curStep == 726 || curStep == 915 || curStep == 943 || curStep == 1167 || curStep == 1200 || curStep == 1311 || curStep == 1350 || curStep == 1364 || curStep == 1548 || curStep == 1563 || curStep == 1607 || curStep == 1619 || curStep == 1791 || curStep == 1935 || curStep == 1967 || curStep == 1983) // groom
+			if (curStep == 383 || curStep == 527 || curStep == 555 || curStep == 575 || curStep == 670 || curStep == 726 || curStep == 915 || curStep == 943 || curStep == 1167 || curStep == 1200 || curStep == 1311 || curStep == 1350 || curStep == 1364 || curStep == 1548 || curStep == 1563 || curStep == 1607 || curStep == 1619 || curStep == 1791 || curStep == 1935 || curStep == 1967 || curStep == 1983) // groom
 				{
 					cyclopsswitch("groom");	
 				}
-			if (curStep == 7 || curStep == 510 || curStep == 543 || curStep == 570 || curStep == 600 || curStep == 703 || curStep == 895 || curStep == 1150 || curStep == 1182 || curStep == 1210 || curStep == 1342 || curStep == 1353 || curStep == 1367 || curStep == 1407 || curStep == 1551 || curStep == 1609 || curStep == 1623 || curStep == 1919 || curStep == 1951 || curStep == 1977 || curStep == 1988) //cyclops
+			if (curStep == 1 || curStep == 510 || curStep == 543 || curStep == 570 || curStep == 600 || curStep == 703 || curStep == 895 || curStep == 1150 || curStep == 1182 || curStep == 1210 || curStep == 1342 || curStep == 1353 || curStep == 1367 || curStep == 1407 || curStep == 1551 || curStep == 1609 || curStep == 1623 || curStep == 1919 || curStep == 1951 || curStep == 1977 || curStep == 1988) //cyclops
 				{
 					cyclopsswitch("cyclops");		
 				}
@@ -4559,6 +4562,11 @@ class PlayState extends MusicBeatState
 		
 						if (FlxG.random.bool(10) && fastCarCanDrive)
 							fastCarDrive();
+				}
+				case 'barb':
+				{
+					for(i in foregroundSprites)
+							i.dance();
 				}
 			case "philly":
 				if(FlxG.save.data.distractions){
