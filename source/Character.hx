@@ -174,10 +174,10 @@ class Character extends FlxSprite
 				animation.addByPrefix('singLEFT', 'Ice Note Left', 24);
 
 				addOffset('idle');
-				addOffset("singUP", 500, 310);
-				addOffset("singRIGHT", -70, 85);
-				addOffset("singLEFT", 520, -5);
-				addOffset("singDOWN", 760, 115);
+				addOffset("singUP", 390, 215);
+				addOffset("singRIGHT", -10, 33);
+				addOffset("singLEFT", 45, 45);
+				addOffset("singDOWN", 95, 175);
 
 				playAnim('idle');
 			case 'painter':
@@ -481,12 +481,12 @@ class Character extends FlxSprite
 				case 'spider':
 					frames = Paths.getSparrowAtlas("evilwiz/spider/idle");
 	
-					animation.addByPrefix("idle","Spider Idle Dance", 24, false);
+					animation.addByPrefix("idle","Spider Idle Dance", 24, true);
 	
 					otherFrames = [];
 	
 					trace('poggers');
-	
+
 					otherFrames.push(new Character(x,y,"spider-left"));
 					otherFrames.push(new Character(x,y,"spider-right"));
 					otherFrames.push(new Character(x,y,"spider-up"));
@@ -513,7 +513,7 @@ class Character extends FlxSprite
 	
 					animation.addByPrefix("idle","Spider Note Right", 24, false);
 
-					addOffset('idle', 160, 201);
+					addOffset('idle', 1860, 901);
 	
 					playAnim('idle');
 					trace('right');
@@ -525,7 +525,7 @@ class Character extends FlxSprite
 					animation.addByPrefix("idle","Spider Note Left", 24, false);
 
 	
-					addOffset('idle', 1210, -70);
+					addOffset('idle', 2910, 630);
 	
 					playAnim('idle');
 	
@@ -536,7 +536,7 @@ class Character extends FlxSprite
 	
 					animation.addByPrefix("idle","Spider Note Down", 24, false);
 
-					addOffset('idle', 827, -292);
+					addOffset('idle', 2527, 498);
 	
 					playAnim('idle');
 					trace('down');
@@ -545,7 +545,7 @@ class Character extends FlxSprite
 	
 					animation.addByPrefix("idle","Spider Note Up", 24, false);
 
-					addOffset('idle', 510, 442);
+					addOffset('idle', 2210, 932);
 	
 					playAnim('idle');
 					trace('up');

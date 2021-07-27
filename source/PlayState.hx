@@ -779,7 +779,7 @@ class PlayState extends MusicBeatState
 			}
 			case "destroyedwiz":
 				{
-						defaultCamZoom = 0.25;
+						defaultCamZoom = 0.28;
 						curStage = 'destroyedwiz';
 							var bg:FlxSprite = new FlxSprite(0,0).loadGraphic(Paths.image('evilwiz/background/Sky'));
 							bg.setGraphicSize(Std.int(bg.width * 3));
@@ -791,7 +791,6 @@ class PlayState extends MusicBeatState
 							var ground:FlxSprite = new FlxSprite(0,0).loadGraphic(Paths.image('evilwiz/background/DestroyedFloor'));
 							ground.setGraphicSize(Std.int(ground.width * 3));
 							ground.antialiasing = true;
-							ground.scrollFactor.set(0.9, 0.9);
 							ground.screenCenter();
 							ground.active = false;
 	
@@ -1145,6 +1144,13 @@ class PlayState extends MusicBeatState
 				gf.y += 375;
 				gf.x += 170;
 				boyfriend.x += 450;
+			case 'destroyedwiz':
+				dad.x -= 2000;
+				dad.y -= 500;
+				boyfriend.y += 520;
+				gf.y += 375;
+				gf.x += 170;
+				boyfriend.x += 600;
 		}
 
 		if (!PlayStateChangeables.Optimize)
@@ -4332,7 +4338,7 @@ class PlayState extends MusicBeatState
 			luaModchart.executeState('stepHit',[curStep]);
 		}
 		#end
-		if (frozenhit >= 5)
+		if (frozenhit >= 3)
 			{
 				remove(boyfriend);
 				boyfriend = new Boyfriend(770, 450, 'bf');
