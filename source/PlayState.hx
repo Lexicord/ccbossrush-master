@@ -711,7 +711,7 @@ class PlayState extends MusicBeatState
 					defaultCamZoom = 0.55;
 					var bg:FlxSprite = new FlxSprite(0,0).loadGraphic(Paths.image('necromancer/background'));
 					bg.antialiasing = true;
-					bg.scrollFactor.set(0.9, 0.9);
+					bg.scrollFactor.set(0.7, 0.7);
 					bg.screenCenter();
 					bg.y -= 275;
 
@@ -1183,6 +1183,16 @@ class PlayState extends MusicBeatState
 
 			add(icefront);
 		}
+		if (curStage == 'necro')
+			{
+				var fg2:FlxSprite = new FlxSprite(0,0).loadGraphic(Paths.image('necromancer/foreground'));
+				fg2.antialiasing = true;
+				fg2.screenCenter();
+				fg2.scrollFactor.set(1.0, 1.0);
+				fg2.y += 825;
+				fg2.x += 250;
+				add(fg2);
+			}
 		}
 
 
