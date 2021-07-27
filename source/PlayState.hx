@@ -1062,21 +1062,6 @@ class PlayState extends MusicBeatState
 			case 'evilwizard':
 				camPos.x += 350;
 				dad.y += 280;
-				case 'spider':
-				dad.x -= 950;
-				dad.y -= 500;
-				case 'spider-right':
-				dad.x -= 950;
-				dad.y -= 500;
-				case 'spider-down':
-				dad.x -= 950;
-				dad.y -= 500;
-				case 'spider-left':
-				dad.x -= 950;
-				dad.y -= 500;
-				case 'spider-up':
-				dad.x -= 950;
-				dad.y -= 500;
 			case 'necromancer':
 				camPos.x -= 375;
 				dad.y -= 300;
@@ -1148,7 +1133,7 @@ class PlayState extends MusicBeatState
 				gf.y += 300;
 			case 'barb':
 				dad.x -= 500;
-				dad.y += 270
+				dad.y += 270;
 				boyfriend.y += 520;
 				gf.y += 375;
 				gf.x += 170;
