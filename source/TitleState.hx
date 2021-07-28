@@ -432,8 +432,7 @@ class TitleState extends MusicBeatState
 			case 17:
 				addMoreText('Goodenoty');
 			case 19:
-				deleteCoolText();
-				createCoolText(['Gettin Freaky Remix By ThatGuyRai']);
+				addMoreText('Lonestar & ThatGuyRai');
 			case 21:
 				deleteCoolText();
 				createCoolText([curWacky[0]]);
