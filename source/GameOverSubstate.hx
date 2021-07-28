@@ -7,6 +7,7 @@ import flixel.math.FlxPoint;
 import flixel.util.FlxColor;
 import flixel.util.FlxTimer;
 import flixel.text.FlxText;
+import flixel.FlxSprite;
 
 class GameOverSubstate extends MusicBeatSubstate
 {
@@ -27,10 +28,21 @@ class GameOverSubstate extends MusicBeatSubstate
 		bf = new Boyfriend(x, y, daBf);
 		add(bf);
 
-		if (PlayState.SONG.song.toLowerCase() == 'bashing-drums' && FlxG.save.data.LoseToBarb == false)
+		if (FlxG.save.data.LoseToBarb == false)
 			{
 				FlxG.save.data.LoseToBarb = true;
 				FlxG.save.flush();
+				FlxG.sound.play(Paths.sound('errorsfx'));
+				var txt:FlxText = new FlxText(0, 40, FlxG.width, "Achievement Unlocked: You Tried.",18);
+				txt.setFormat("VCR OSD Mono", 32, FlxColor.fromRGB(200, 200, 200), CENTER);
+				txt.borderColor = FlxColor.BLACK;
+				txt.borderSize = 3;
+				txt.borderStyle = FlxTextBorderStyle.OUTLINE;
+				add(txt);
+				new FlxTimer().start(3, function(tmr:FlxTimer)
+					{
+						remove(txt);
+					});		
 			}
 
 		camFollow = new FlxObject(bf.getGraphicMidpoint().x, bf.getGraphicMidpoint().y, 1, 1);

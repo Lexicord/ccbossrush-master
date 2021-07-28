@@ -8,6 +8,8 @@ class KadeEngineData
     {
         if (FlxG.save.data.newInput == null)
 			FlxG.save.data.newInput = true;
+		if (FlxG.save.data.UnlockedBob == null)
+			FlxG.save.data.UnlockedBob = false;
 
 		if (FlxG.save.data.downscroll == null)
 			FlxG.save.data.downscroll = false;

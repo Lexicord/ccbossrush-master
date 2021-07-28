@@ -43,7 +43,15 @@ class SkinState extends MusicBeatState
 			case 6:
 				FlxG.save.data.bfskin = "KNIGHTPURPLE";
 			case 7:
-				FlxG.save.data.bfskin = "BOB";
+			if (FlxG.save.data.UnlockedBob == true)
+				{
+					FlxG.save.data.bfskin = "BOB";
+				}
+				else
+				{
+					FlxG.save.data.bfskin = "";
+					curSelection = 0;
+				}
 			default:
 				FlxG.save.data.bfskin = "";
 		}

@@ -40,6 +40,19 @@ class AchievementState extends MusicBeatState
 				Amount += 1;
 		}
 
+		if (FlxG.save.data.UnlockedBob == true)
+			{
+					var dabadge:FlxSprite = new FlxSprite(0,0).loadGraphic(Paths.image('badges/bob'));
+					dabadge.antialiasing = true;
+					dabadge.scrollFactor.set(0.9, 0.9);
+					dabadge.active = false;
+					dabadge.x = 500;
+					dabadge.y = 125;
+					dabadge.setGraphicSize(Std.int(dabadge.width / 2.1));
+					add(dabadge);
+					Amount += 1;
+			}
+	
 	if (Amount == 32)
 		{
 			PerfectCollection = true;	

@@ -26,6 +26,17 @@ class MainMenuState extends MusicBeatState
 {
 	var curSelected:Int = 0;
 
+	var curLetter:Int = 1;
+	var LetterO:Bool = false;
+	var LetterN:Bool = false;
+	var LetterS:Bool = false;
+	var LetterL:Bool = false;
+	var LetterA:Bool = false;
+	var LetterU:Bool = false;
+	var LetterG:Bool = false;
+	var LetterH:Bool = false;
+	var LetterT:Bool = false;
+
 	var menuItems:FlxTypedGroup<FlxSprite>;
 
 	//COPY AND PASTE FROM HERE
@@ -140,7 +151,103 @@ class MainMenuState extends MusicBeatState
 		{
 			FlxG.sound.music.volume += 0.5 * FlxG.elapsed;
 		}
-
+	if (FlxG.save.data.UnlockedBob == false)
+		{
+		if (FlxG.keys.justPressed.O)
+			{
+				if (curLetter == 1)
+					{
+						LetterO = true;
+						curLetter = 2;
+						FlxG.sound.play(Paths.sound('clicksfx'));
+					}
+			}
+			if (FlxG.keys.justPressed.N)
+				{
+					if (curLetter == 2)
+						{
+							LetterN = true;
+							curLetter = 3;
+							FlxG.sound.play(Paths.sound('clicksfx'));
+						}
+				}
+				if (FlxG.keys.justPressed.S)
+					{
+						if (curLetter == 3)
+							{
+								LetterS = true;
+								curLetter = 4;
+								FlxG.sound.play(Paths.sound('clicksfx'));
+							}
+					}
+					if (FlxG.keys.justPressed.L)
+						{
+							if (curLetter == 4)
+								{
+									LetterL = true;
+									curLetter = 5;
+									FlxG.sound.play(Paths.sound('clicksfx'));
+								}
+						}
+						if (FlxG.keys.justPressed.A)
+							{
+								if (curLetter == 5)
+									{
+										LetterA = true;
+										curLetter = 6;
+										FlxG.sound.play(Paths.sound('clicksfx'));
+									}
+							}
+							if (FlxG.keys.justPressed.U)
+								{
+									if (curLetter == 6)
+										{
+											LetterU = true;
+											curLetter = 7;
+											FlxG.sound.play(Paths.sound('clicksfx'));
+										}
+								}
+								if (FlxG.keys.justPressed.G)
+									{
+										if (curLetter == 7)
+											{
+												LetterG = true;
+												curLetter = 8;
+												FlxG.sound.play(Paths.sound('clicksfx'));
+											}
+									}
+									if (FlxG.keys.justPressed.H)
+										{
+											if (curLetter == 8)
+												{
+													LetterN = true;
+													curLetter = 9;
+													FlxG.sound.play(Paths.sound('clicksfx'));
+												}
+										}
+										if (FlxG.keys.justPressed.T)
+											{
+												if (curLetter == 9)
+													{
+														LetterT = true;
+														curLetter = 1;
+														FlxG.save.data.UnlockedBob = true;
+														FlxG.save.flush();
+														FlxG.sound.play(Paths.sound('errorsfx'));
+														var txt:FlxText = new FlxText(0, 40, FlxG.width, "Achievement Unlocked: mmmbob",18);
+														txt.setFormat("VCR OSD Mono", 32, FlxColor.fromRGB(200, 200, 200), CENTER);
+														txt.borderColor = FlxColor.BLACK;
+														txt.borderSize = 3;
+														txt.borderStyle = FlxTextBorderStyle.OUTLINE;
+														add(txt);
+														new FlxTimer().start(3, function(tmr:FlxTimer)
+															{
+																remove(txt);
+															});
+														
+													}
+											}
+									}	
 		if (!selectedSomethin)
 		{
 			var gamepad:FlxGamepad = FlxG.gamepads.lastActive;
