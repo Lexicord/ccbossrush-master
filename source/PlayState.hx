@@ -4268,7 +4268,7 @@ class PlayState extends MusicBeatState
 			add(spacebarthing);
 			spacebarthing.animation.play('pressnow');
 			
-			new FlxTimer().start(0.75, function(tmr:FlxTimer)
+			new FlxTimer().start(0.5, function(tmr:FlxTimer)
 				{
 					candodgebolt = false;
 						var murderbolt:FlxSprite = new FlxSprite(0, 0);
@@ -4361,9 +4361,16 @@ class PlayState extends MusicBeatState
 			}
 	if (curSong.toLowerCase() == 'frostbite')
 		{
-			if (curStep == 50 || curStep == 157 || curStep == 410 || curStep == 555 || curStep == 590 || curStep == 685 || curStep == 730 || curStep == 865 || curStep == 910 || curStep == 1020 || curStep == 1055 || curStep == 1070 || curStep == 1086 || curStep == 1354) //way better hard coding system why didn't i think of this before
+			if (curStep == 50 || curStep == 157 || curStep == 410 || curStep == 555 || curStep == 590 || curStep == 685 || curStep == 730 || curStep == 865 || curStep == 910 || curStep == 1020 || curStep == 1055 || curStep == 1070 || curStep == 1086 || curStep == 1354)
 				{
 					freezebf();
+				}
+		}
+	if (curSong.toLowerCase() == 'reanimated')
+		{
+			if (curStep == 55 || curStep == 150 || curStep == 300 || curStep == 450 || curStep == 650 || curStep == 770 || curStep == 895 || curStep == 910 || curStep == 928 || curStep == 942 || curStep == 965 || curStep == 985 || curStep == 1015 || curStep == 1075 || curStep == 1145 || curStep == 1425 || curStep == 1455)
+				{
+					necrobolt();
 				}
 		}
 	if (curSong.toLowerCase() == 'memory-replevy') //GOD DAMN THIS TOOK SO FUCKING LONG
@@ -4396,13 +4403,6 @@ class PlayState extends MusicBeatState
 			worselightningbuthardcoded();	
 		}
 	}
-		if (curSong.toLowerCase() == 'reanimated')
-			{
-			if	(FlxG.random.bool(5) && candobolt == true)
-				{
-					necrobolt();
-				}
-			}
 		// yes this updates every step.
 		// yes this is bad
 		// but i'm doing it to update misses and accuracy

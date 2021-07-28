@@ -549,6 +549,13 @@ class Character extends FlxSprite
 	
 					playAnim('idle');
 					trace('up');
+			case 'myfnfocDONTSTEAL':
+				var tex = Paths.getSparrowAtlas('myfnfocDONTSTEAL');
+				frames = tex;
+				animation.addByPrefix('idle', 'myfnfocDONTSTEAL idle', 24, false);
+
+				addOffset('idle');
+				playAnim('idle');		
 			case 'bf-christmas':
 				var tex = Paths.getSparrowAtlas('characters/bfChristmas');
 				frames = tex;
