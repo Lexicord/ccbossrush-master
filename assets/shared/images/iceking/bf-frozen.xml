@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TextureAtlas imagePath="bf-frozen.png">
-	<!-- Created with Adobe Animate version 21.0.4.39603 -->
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
 	<!-- http://www.adobe.com/products/animate.html -->
 	<SubTexture name="frozen idle0000" x="0" y="0" width="751" height="528" frameX="0" frameY="-36" frameWidth="751" frameHeight="564"/>
 	<SubTexture name="frozen idle0001" x="0" y="0" width="751" height="528" frameX="0" frameY="-36" frameWidth="751" frameHeight="564"/>
