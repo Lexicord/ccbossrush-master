@@ -156,8 +156,14 @@ class TitleState extends MusicBeatState
 			// music.loadStream(Paths.music('freakyMenu'));
 			// FlxG.sound.list.add(music);
 			// music.play();
-			FlxG.sound.playMusic(Paths.music('freakyMenu'), 0);
-
+			if (FlxG.save.data.BEATDAGAME == false)
+				{
+					FlxG.sound.playMusic(Paths.music('freakyMenu'));
+				}
+				else 
+				{
+					FlxG.sound.playMusic(Paths.music('therace'));
+				}
 			FlxG.sound.music.fadeIn(4, 0, 0.7);
 		}
 

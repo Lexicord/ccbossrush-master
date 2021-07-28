@@ -17,6 +17,9 @@ class KadeEngineData
 		if (FlxG.save.data.coolhitsounds == null)
 			FlxG.save.data.coolhitsounds = true;
 
+		if (FlxG.save.data.BEATDAGAME == null)
+			FlxG.save.data.BEATDAGAME = false;
+
 		if (FlxG.save.data.bfskin == null)
 			FlxG.save.data.bfskin = "";
 
@@ -85,7 +88,7 @@ class KadeEngineData
 			FlxG.save.data.botplay = false;
 
 		if (FlxG.save.data.cpuStrums == null)
-			FlxG.save.data.cpuStrums = false;
+			FlxG.save.data.cpuStrums = true;
 
 		if (FlxG.save.data.strumline == null)
 			FlxG.save.data.strumline = false;
@@ -105,6 +108,12 @@ class KadeEngineData
 		if (FlxG.save.data.optimize == null)
 			FlxG.save.data.optimize = false;
 		
+		if (FlxG.save.data.Sussy == null)
+			FlxG.save.data.Sussy = false;
+
+		if (FlxG.save.data.UnlockIce == null)
+			FlxG.save.data.UnlockIce = false;
+
 		var gamepad:FlxGamepad = FlxG.gamepads.lastActive;
 		
 		KeyBinds.gamepad = gamepad != null;

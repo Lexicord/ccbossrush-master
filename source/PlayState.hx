@@ -3172,14 +3172,22 @@ class PlayState extends MusicBeatState
 					paused = true;
 					FlxG.sound.music.stop();
 					vocals.stop();
+					FlxG.save.data.BEATDAGAME = true;
 					if (FlxG.save.data.scoreScreen)
 						{
 							openSubState(new ResultsScreen());
 						}
 					else	
 					{
-						FlxG.sound.playMusic(Paths.music('freakyMenu'));
-						FlxG.switchState(new MainMenuState());
+						if (FlxG.save.data.BEATDAGAME == false)
+							{
+								FlxG.sound.playMusic(Paths.music('freakyMenu'));
+							}
+							else 
+							{
+								FlxG.sound.playMusic(Paths.music('therace'));
+							}
+							FlxG.switchState(new MainMenuState());
 
 					}
 
@@ -3207,6 +3215,12 @@ class PlayState extends MusicBeatState
 				{
 					
 					// adjusting the song name to be compatible
+					if (curSong.toLowerCase() == 'frostbite')
+						{
+							FlxG.save.data.UnlockIce = true;
+							FlxG.save.flush();
+							FlxG.sound.play(Paths.sound('errorsfx'));
+						}
 					var songFormat = StringTools.replace(PlayState.storyPlaylist[0], " ", "-");
 					switch (songFormat) {
 						case 'Dad-Battle': songFormat = 'Dadbattle';
@@ -3236,7 +3250,7 @@ class PlayState extends MusicBeatState
 
 					PlayState.SONG = Song.loadFromJson(poop, PlayState.storyPlaylist[0]);
 					FlxG.sound.music.stop();
-
+					
 					LoadingState.loadAndSwitchState(new PlayState());
 				}
 			}
@@ -4237,7 +4251,6 @@ class PlayState extends MusicBeatState
 		lightningOffset = FlxG.random.int(8, 24);
 
 		boyfriend.playAnim('scared', true);
-		gf.playAnim('scared', true);
 	}
 
 	var danced:Bool = false;
@@ -4251,8 +4264,7 @@ class PlayState extends MusicBeatState
 			{
 				boyfriend.playAnim('scared', true);
 			}
-				gf.playAnim('scared', true);
-			});
+		});
 	}
 	function necrobolt()
 		{
@@ -4361,7 +4373,7 @@ class PlayState extends MusicBeatState
 			}
 	if (curSong.toLowerCase() == 'frostbite')
 		{
-			if (curStep == 50 || curStep == 157 || curStep == 435 || curStep == 660 || curStep == 802 || curStep == 1089 || curStep == 1200 || curStep == 1316 || curStep == 1350 || curStep == 1464 || curStep == 1810 || curstep == 2000 || curStep == 2120 || curStep == 2170)
+			if (curStep == 50 || curStep == 157 || curStep == 435 || curStep == 660 || curStep == 802 || curStep == 1089 || curStep == 1200 || curStep == 1316 || curStep == 1350 || curStep == 1464 || curStep == 1810 || curStep == 2000 || curStep == 2120 || curStep == 2170)
 				{
 					freezebf();
 				}
@@ -4427,7 +4439,6 @@ class PlayState extends MusicBeatState
 			new FlxTimer().start(0.4, function(tmr:FlxTimer)
 				{
 		boyfriend.playAnim('scared', true);
-		gf.playAnim('scared', true);
 			});
 			new FlxTimer().start(2, function(tmr:FlxTimer)
 				{

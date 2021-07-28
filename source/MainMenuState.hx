@@ -66,10 +66,30 @@ class MainMenuState extends MusicBeatState
 		// Updating Discord Rich Presence
 		DiscordClient.changePresence("In the Menus", null);
 		#end
-
+		if (FlxG.random.bool(1))
+			{
+				var sussy:FlxSprite = new FlxSprite(-100).loadGraphic(Paths.image('Suspicious'));
+				sussy.screenCenter();
+				sussy.antialiasing = true;
+				add(sussy);
+				FlxG.save.data.Sussy = true;
+				FlxG.save.flush();
+				FlxG.sound.play(Paths.sound('errorsfx'));
+			}
+		if (FlxG.save.data.BEATDAGAME == false)
+			{
+				optionShit.remove('Freeplay');
+			}
 		if (!FlxG.sound.music.playing)
 		{
-			FlxG.sound.playMusic(Paths.music('freakyMenu'));
+			if (FlxG.save.data.BEATDAGAME == false)
+				{
+					FlxG.sound.playMusic(Paths.music('freakyMenu'));
+				}
+				else 
+				{
+					FlxG.sound.playMusic(Paths.music('therace'));
+				}
 		}
 
 		persistentUpdate = persistentDraw = true;
@@ -125,7 +145,7 @@ class MainMenuState extends MusicBeatState
 
 		FlxG.camera.follow(camFollow, null, 0.60 * (60 / FlxG.save.data.fpsCap));
 
-		var versionShit:FlxText = new FlxText(5, FlxG.height - 18, 0, gameVer +  (Main.watermarks ? " FNF - " + kadeEngineVer + " Kade Engine" : ""), 12);
+		var versionShit:FlxText = new FlxText(5, FlxG.height - 18, 0, gameVer +  (Main.watermarks ? " FNF - " + kadeEngineVer + "KE Castle Crashers" : ""), 12);
 		versionShit.scrollFactor.set();
 		versionShit.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(versionShit);
@@ -234,16 +254,6 @@ class MainMenuState extends MusicBeatState
 														FlxG.save.data.UnlockedBob = true;
 														FlxG.save.flush();
 														FlxG.sound.play(Paths.sound('errorsfx'));
-														var txt:FlxText = new FlxText(0, 40, FlxG.width, "Achievement Unlocked: mmmbob",18);
-														txt.setFormat("VCR OSD Mono", 32, FlxColor.fromRGB(200, 200, 200), CENTER);
-														txt.borderColor = FlxColor.BLACK;
-														txt.borderSize = 3;
-														txt.borderStyle = FlxTextBorderStyle.OUTLINE;
-														add(txt);
-														new FlxTimer().start(3, function(tmr:FlxTimer)
-															{
-																remove(txt);
-															});
 														
 													}
 											}

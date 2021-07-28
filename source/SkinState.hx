@@ -39,9 +39,39 @@ class SkinState extends MusicBeatState
 			case 4:
 				FlxG.save.data.bfskin = "KNIGHTRED";
 			case 5:
-				FlxG.save.data.bfskin = "KNIGHTPINK";
+				if (FlxG.save.data.BEATDAGAME == true)
+					{
+						FlxG.save.data.bfskin = "KNIGHTPINK";
+					}
+					else
+					{
+					if (FlxG.save.data.UnlockedBob == false)
+						{
+							FlxG.save.data.bfskin = "";
+							curSelection = 0;
+						}
+					else 
+						{
+							FlxG.save.data.bfskin = "BOB";	
+						}
+					}
 			case 6:
-				FlxG.save.data.bfskin = "KNIGHTPURPLE";
+				if (FlxG.save.data.BEATDAGAME == true)
+					{
+						FlxG.save.data.bfskin = "KNIGHTPURPLE";
+					}
+					else
+					{
+					if (FlxG.save.data.UnlockedBob == false)
+						{
+							FlxG.save.data.bfskin = "";
+							curSelection = 0;
+						}
+					else 
+						{
+							FlxG.save.data.bfskin = "BOB";	
+						}
+					}
 			case 7:
 			if (FlxG.save.data.UnlockedBob == true)
 				{
@@ -52,6 +82,16 @@ class SkinState extends MusicBeatState
 					FlxG.save.data.bfskin = "";
 					curSelection = 0;
 				}
+			case 8:
+				if (FlxG.save.data.UnlockIce)
+					{
+						FlxG.save.data.bfskin = "ICESKIMO";
+					}
+					else
+					{
+						FlxG.save.data.bfskin = "";
+						curSelection = 0;
+					}
 			default:
 				FlxG.save.data.bfskin = "";
 		}
@@ -60,10 +100,16 @@ class SkinState extends MusicBeatState
 		fakebf.frames = Paths.getSparrowAtlas('characters/BOYFRIEND' + FlxG.save.data.bfskin, 'shared');
 		fakebf.antialiasing = true;
 		fakebf.screenCenter();
-		fakebf.animation.addByPrefix('idle', 'BF idle dance', 24);
+	if (FlxG.save.data.bfskin != "BOB")
+		{fakebf.animation.addByPrefix('idle', 'BF idle dance', 24);}
+	else
+		{fakebf.animation.addByPrefix('idle', 'bob_idle', 24);}
+	
 	if (FlxG.save.data.bfskin != "BOB")
 		{fakebf.animation.addByPrefix('HEY', 'BF HEY', 24, false);}
-
+	else
+		{fakebf.animation.addByPrefix('HEY', 'bob_UP', 24, false);}
+	
 		add(fakebf);
 		fakebf.animation.play('idle');
 	}
