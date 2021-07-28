@@ -4361,7 +4361,7 @@ class PlayState extends MusicBeatState
 			}
 	if (curSong.toLowerCase() == 'frostbite')
 		{
-			if (curStep == 50 || curStep == 157 || curStep == 435 || curStep == 660 || curStep == 802 || curStep == )
+			if (curStep == 50 || curStep == 157 || curStep == 435 || curStep == 660 || curStep == 802 || curStep == 1089 || curStep == 1200 || curStep == 1316 || curStep == 1350 || curStep == 1464 || curStep == 1810 || curstep == 2000 || curStep == 2120 || curStep == 2170)
 				{
 					freezebf();
 				}
