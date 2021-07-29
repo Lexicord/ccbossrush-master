@@ -42,7 +42,8 @@ class Caching extends MusicBeatState
 		susthing.antialiasing = true;
 		susthing.active = false;
 		susthing.screenCenter();
-		susthing.scrollFactor.set();
+        susthing.scrollFactor.set();
+        susthing.alpha = 0;
 		add(susthing);
 
         add(text);
@@ -80,10 +81,9 @@ class Caching extends MusicBeatState
 
     function cache()
     {
-
         var images = [];
+        var imagesCyclops = [];
         var music = [];
-        var charts = [];
 
         trace("caching images...");
 
@@ -102,7 +102,7 @@ class Caching extends MusicBeatState
             if (!i.endsWith(".png"))
                 continue;
             trace(i);
-            images.push(i);
+            imagesCyclops.push(i);
         }
 
         trace("caching music...");
@@ -113,7 +113,7 @@ class Caching extends MusicBeatState
         }
     
 
-        toBeDone = Lambda.count(images) + Lambda.count(music);
+        toBeDone = Lambda.count(images) + Lambda.count(imagesCyclops) + Lambda.count(music);
 
         trace("LOADING: " + toBeDone + " OBJECTS.");
 
@@ -121,6 +121,14 @@ class Caching extends MusicBeatState
         {
             var replaced = i.replace(".png","");
             FlxG.bitmap.add(Paths.image("characters/" + replaced,"shared"));
+            trace("cached " + replaced);
+            done++;
+        }
+
+        for (i in imagesCyclops)
+        {
+            var replaced = i.replace(".png","");
+            FlxG.bitmap.add(Paths.image("cyclops/character/" + replaced,"shared"));
             trace("cached " + replaced);
             done++;
         }

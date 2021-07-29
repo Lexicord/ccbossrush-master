@@ -41,11 +41,7 @@ class MainMenuState extends MusicBeatState
 
 	//COPY AND PASTE FROM HERE
 	//START
-	#if !switch
 	var optionShit:Array<String> = ['Boss Rush', 'Freeplay', 'Achievements', 'Options', 'Skins'];
-	#else
-	var optionShit:Array<String> = ['Boss Rush', 'Freeplay'];
-	#end
 	//END
 
 	var newGaming:FlxText;
@@ -67,29 +63,29 @@ class MainMenuState extends MusicBeatState
 		DiscordClient.changePresence("In the Menus", null);
 		#end
 		if (FlxG.random.bool(1))
-			{
-				var sussy:FlxSprite = new FlxSprite(-100).loadGraphic(Paths.image('Suspicious'));
-				sussy.screenCenter();
-				sussy.antialiasing = true;
-				add(sussy);
-				FlxG.save.data.Sussy = true;
-				FlxG.save.flush();
-				FlxG.sound.play(Paths.sound('errorsfx'));
-			}
+		{
+			var sussy:FlxSprite = new FlxSprite(-100).loadGraphic(Paths.image('Suspicious'));
+			sussy.screenCenter();
+			sussy.antialiasing = true;
+			add(sussy);
+			FlxG.save.data.Sussy = true;
+			FlxG.save.flush();
+			FlxG.sound.play(Paths.sound('errorsfx'));
+		}
 		if (FlxG.save.data.BEATDAGAME == false)
-			{
-				optionShit.remove('Freeplay');
-			}
+		{
+			optionShit.remove('Freeplay');
+		}
 		if (!FlxG.sound.music.playing)
 		{
 			if (FlxG.save.data.BEATDAGAME == false)
-				{
-					FlxG.sound.playMusic(Paths.music('freakyMenu'));
-				}
-				else 
-				{
-					FlxG.sound.playMusic(Paths.music('therace'));
-				}
+			{
+				FlxG.sound.playMusic(Paths.music('freakyMenu'));
+			}
+			else 
+			{
+				FlxG.sound.playMusic(Paths.music('therace'));
+			}
 		}
 
 		persistentUpdate = persistentDraw = true;
@@ -171,9 +167,9 @@ class MainMenuState extends MusicBeatState
 		{
 			FlxG.sound.music.volume += 0.5 * FlxG.elapsed;
 		}
-	if (FlxG.save.data.UnlockedBob == false)
+		if (FlxG.save.data.UnlockedBob == false)
 		{
-		if (FlxG.keys.justPressed.O)
+			if (FlxG.keys.justPressed.O)
 			{
 				if (curLetter == 1)
 					{
@@ -183,81 +179,81 @@ class MainMenuState extends MusicBeatState
 					}
 			}
 			if (FlxG.keys.justPressed.N)
-				{
-					if (curLetter == 2)
-						{
-							LetterN = true;
-							curLetter = 3;
-							FlxG.sound.play(Paths.sound('clicksfx'));
-						}
-				}
-				if (FlxG.keys.justPressed.S)
+			{
+				if (curLetter == 2)
 					{
-						if (curLetter == 3)
-							{
-								LetterS = true;
-								curLetter = 4;
-								FlxG.sound.play(Paths.sound('clicksfx'));
-							}
+						LetterN = true;
+						curLetter = 3;
+						FlxG.sound.play(Paths.sound('clicksfx'));
 					}
-					if (FlxG.keys.justPressed.L)
-						{
-							if (curLetter == 4)
-								{
-									LetterL = true;
-									curLetter = 5;
-									FlxG.sound.play(Paths.sound('clicksfx'));
-								}
-						}
-						if (FlxG.keys.justPressed.A)
-							{
-								if (curLetter == 5)
-									{
-										LetterA = true;
-										curLetter = 6;
-										FlxG.sound.play(Paths.sound('clicksfx'));
-									}
-							}
-							if (FlxG.keys.justPressed.U)
-								{
-									if (curLetter == 6)
-										{
-											LetterU = true;
-											curLetter = 7;
-											FlxG.sound.play(Paths.sound('clicksfx'));
-										}
-								}
-								if (FlxG.keys.justPressed.G)
-									{
-										if (curLetter == 7)
-											{
-												LetterG = true;
-												curLetter = 8;
-												FlxG.sound.play(Paths.sound('clicksfx'));
-											}
-									}
-									if (FlxG.keys.justPressed.H)
-										{
-											if (curLetter == 8)
-												{
-													LetterN = true;
-													curLetter = 9;
-													FlxG.sound.play(Paths.sound('clicksfx'));
-												}
-										}
-										if (FlxG.keys.justPressed.T)
-											{
-												if (curLetter == 9)
-													{
-														LetterT = true;
-														curLetter = 1;
-														FlxG.save.data.UnlockedBob = true;
-														FlxG.save.flush();
-														FlxG.sound.play(Paths.sound('errorsfx'));
-														
-													}
-											}
-									}	
+			}
+			if (FlxG.keys.justPressed.S)
+			{
+				if (curLetter == 3)
+					{
+						LetterS = true;
+						curLetter = 4;
+						FlxG.sound.play(Paths.sound('clicksfx'));
+					}
+			}
+			if (FlxG.keys.justPressed.L)
+			{
+				if (curLetter == 4)
+					{
+						LetterL = true;
+						curLetter = 5;
+						FlxG.sound.play(Paths.sound('clicksfx'));
+					}
+			}
+			if (FlxG.keys.justPressed.A)
+			{
+				if (curLetter == 5)
+					{
+						LetterA = true;
+						curLetter = 6;
+						FlxG.sound.play(Paths.sound('clicksfx'));
+					}
+			}
+			if (FlxG.keys.justPressed.U)
+			{
+				if (curLetter == 6)
+					{
+						LetterU = true;
+						curLetter = 7;
+						FlxG.sound.play(Paths.sound('clicksfx'));
+					}
+			}
+			if (FlxG.keys.justPressed.G)
+			{
+				if (curLetter == 7)
+					{
+						LetterG = true;
+						curLetter = 8;
+						FlxG.sound.play(Paths.sound('clicksfx'));
+					}
+			}
+			if (FlxG.keys.justPressed.H)
+			{
+				if (curLetter == 8)
+					{
+						LetterN = true;
+						curLetter = 9;
+						FlxG.sound.play(Paths.sound('clicksfx'));
+					}
+			}
+			if (FlxG.keys.justPressed.T)
+			{
+				if (curLetter == 9)
+				{
+					LetterT = true;
+					curLetter = 1;
+					FlxG.save.data.UnlockedBob = true;
+					FlxG.save.flush();
+					FlxG.sound.play(Paths.sound('errorsfx'));
+					
+				}
+			}
+		}	
 		if (!selectedSomethin)
 		{
 			var gamepad:FlxGamepad = FlxG.gamepads.lastActive;
@@ -355,7 +351,25 @@ class MainMenuState extends MusicBeatState
 		switch (daChoice)
 		{
 			case 'Boss Rush':
-				FlxG.switchState(new StoryMenuState());
+				PlayState.storyPlaylist = ['Bashing-Drums', 'Memory-Replevy', 'Smudgy', 'Frostbite', 'Reanimated', 'Subjugation', 'Arachnophobia'];
+				PlayState.isStoryMode = true;
+				PlayState.storyDifficulty = 1;
+				
+				var songFormat = StringTools.replace('Bashing-Drums', " ", "-");
+				var poop:String = Highscore.formatSong(songFormat, 1);
+				
+				PlayState.sicks = 0;
+				PlayState.bads = 0;
+				PlayState.shits = 0;
+				PlayState.goods = 0;
+				PlayState.campaignMisses = 0;
+				PlayState.SONG = Song.loadFromJson(poop, 'Bashing-Drums');
+				PlayState.storyWeek = 0;
+				PlayState.campaignScore = 0;
+				LoadingState.target = new PlayState();
+				LoadingState.stopMusic = true;
+				FlxG.switchState(new LoadingState());
+
 				trace("Story Menu Selected");
 			case 'Achievements':
 				FlxG.switchState(new AchievementState());
