@@ -72,21 +72,24 @@ function stepHit(step)
 		funkysway = true
 		showOnlyStrums = true
 	end
+	if step == 639 then
+		funkysway = false
+	end
 	if step == 771 then
 		showOnlyStrums = false
-		funkysway = false
 		shakenote = true
 	end
 	if step == 1023 then
 		shakenote = false
 		funkysway = true
 		showOnlyStrums = true
-	end
+	end   
+	if step == 1431 then
+		funkysway = false
+	end 
 	if step == 1534 then
 		camHudAngle = 0
 		showOnlyStrums = false
-		sway = true
-		sway = false
 		setCamZoom(0.35)
 	end
 end

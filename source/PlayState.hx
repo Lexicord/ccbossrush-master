@@ -4369,6 +4369,58 @@ class PlayState extends MusicBeatState
 					dad.x -= 350;
 				}
 		}
+	function movestrums(resetpos:Bool) // yea
+		{
+			if (resetpos == true)
+				{
+					//P2 Positions
+					strumLineNotes.members[0].y = 47;
+					strumLineNotes.members[0].x = 79;
+					strumLineNotes.members[1].y = 48;
+					strumLineNotes.members[1].x = 191;
+					strumLineNotes.members[2].y = 35;
+					strumLineNotes.members[2].x = 303;
+					strumLineNotes.members[3].y = 30;
+					strumLineNotes.members[3].x = 415;
+					//P1 Positions
+					strumLineNotes.members[4].y = 41;
+					strumLineNotes.members[4].x = 719;
+					strumLineNotes.members[5].y = 50;
+					strumLineNotes.members[5].x = 831;
+					strumLineNotes.members[6].y = 41;
+					strumLineNotes.members[6].x = 943;
+					strumLineNotes.members[7].y = 41;
+					strumLineNotes.members[7].x = 1026;
+			// 
+				//	for (i in 0...7)
+				//	{
+					//	trace(strumLineNotes.members[i].y);
+					//	trace(strumLineNotes.members[i].x);
+				//	}
+				}
+			else
+				{
+					// Mix Up Strum Positions
+					//P2 Positions
+					strumLineNotes.members[0].y = 47;
+					strumLineNotes.members[0].x = 79;
+					strumLineNotes.members[1].y = 48;
+					strumLineNotes.members[1].x = 191;
+					strumLineNotes.members[2].y = 35;
+					strumLineNotes.members[2].x = 303;
+					strumLineNotes.members[3].y = 30;
+					strumLineNotes.members[3].x = 415;
+					//P1 Positions
+					strumLineNotes.members[6].y = 41;
+					strumLineNotes.members[6].x = 719;
+					strumLineNotes.members[7].y = 50;
+					strumLineNotes.members[7].x = 831;
+					strumLineNotes.members[5].y = 41;
+					strumLineNotes.members[5].x = 943;
+					strumLineNotes.members[4].y = 41;
+					strumLineNotes.members[4].x = 1026;
+				}
+		}
 	override function stepHit()
 	{
 		super.stepHit();
@@ -4376,7 +4428,6 @@ class PlayState extends MusicBeatState
 		{
 			resyncVocals();
 		}
-
 		#if windows
 		if (executeModchart && luaModchart != null)
 		{
