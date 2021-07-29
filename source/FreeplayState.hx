@@ -64,10 +64,6 @@ class FreeplayState extends MusicBeatState
 			var meta = new SongMetadata(data[0], Std.parseInt(data[2]), data[1]);
 			songs.push(meta);
 			var format = StringTools.replace(meta.songName, " ", "-");
-			switch (format) {
-				case 'Dad-Battle': format = 'Dadbattle';
-				case 'Philly-Nice': format = 'Philly';
-			}
 
 			var diffs = [];
 			FreeplayState.loadDiff(0,format,meta.songName,diffs);
@@ -78,18 +74,10 @@ class FreeplayState extends MusicBeatState
 
 		}
 
-		/* 
-			if (FlxG.sound.music != null)
-			{
-				if (!FlxG.sound.music.playing)
-					FlxG.sound.playMusic(Paths.music('freakyMenu'));
-			}
-		 */
-
-		 #if windows
-		 // Updating Discord Rich Presence
-		 DiscordClient.changePresence("In the Freeplay Menu", null);
-		 #end
+		#if windows
+		// Updating Discord Rich Presence
+		DiscordClient.changePresence("In the Freeplay Menu", null);
+		#end
 
 		var isDebug:Bool = false;
 
@@ -161,23 +149,6 @@ class FreeplayState extends MusicBeatState
 		// add(selector);
 
 		var swag:Alphabet = new Alphabet(1, 0, "swag");
-
-		// JUST DOIN THIS SHIT FOR TESTING!!!
-		/* 
-			var md:String = Markdown.markdownToHtml(Assets.getText('CHANGELOG.md'));
-
-			var texFel:TextField = new TextField();
-			texFel.width = FlxG.width;
-			texFel.height = FlxG.height;
-			// texFel.
-			texFel.htmlText = md;
-
-			FlxG.stage.addChild(texFel);
-
-			// scoreText.textField.htmlText = md;
-
-			trace(md);
-		 */
 
 		super.create();
 	}
@@ -254,10 +225,7 @@ class FreeplayState extends MusicBeatState
 		{
 			// adjusting the song name to be compatible
 			var songFormat = StringTools.replace(songs[curSelected].songName, " ", "-");
-			switch (songFormat) {
-				case 'Dad-Battle': songFormat = 'Dadbattle';
-				case 'Philly-Nice': songFormat = 'Philly';
-			}
+
 			var hmm;
 			try
 			{
@@ -276,7 +244,9 @@ class FreeplayState extends MusicBeatState
 			PlayState.storyDifficulty = 1;
 			PlayState.storyWeek = songs[curSelected].week;
 			trace('CUR WEEK' + PlayState.storyWeek);
-			LoadingState.loadAndSwitchState(new PlayState());
+			LoadingState.target = new PlayState();
+			LoadingState.stopMusic = true;
+			FlxG.switchState(new LoadingState());
 		}
 	}
 

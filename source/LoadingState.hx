@@ -19,21 +19,13 @@ class LoadingState extends MusicBeatState
 {
 	inline static var MIN_TIME = 1.0;
 	
-	var target:FlxState;
-	var stopMusic = false;
+	public static var target:FlxState;
+	public static var stopMusic = false;
+	public static var additionalCaching:String = '';
 	var callbacks:MultiCallback;
-	
-	
-	function new(target:FlxState, stopMusic:Bool)
-	{
-		super();
-		this.target = target;
-		this.stopMusic = stopMusic;
-	}
 	
 	override function create()
 	{
-	
 		var susthing:FlxSprite = new FlxSprite(0,0).loadGraphic(Paths.image('Loading1'));
 		susthing.antialiasing = true;
 		susthing.active = false;
@@ -51,10 +43,7 @@ class LoadingState extends MusicBeatState
 				if (PlayState.SONG.needsVoices)
 					checkLoadSong(getVocalPath());
 				checkLibrary("shared");
-				if (PlayState.storyWeek > 0)
-					checkLibrary("week" + PlayState.storyWeek);
-				else
-					checkLibrary("tutorial");
+
 				
 				var fadeTime = 0.5;
 				FlxG.camera.fade(FlxG.camera.bgColor, fadeTime, true);
@@ -69,10 +58,6 @@ class LoadingState extends MusicBeatState
 		{
 			var library = Assets.getLibrary("songs");
 			final symbolPath = path.split(":").pop();
-			// @:privateAccess
-			// library.types.set(symbolPath, SOUND);
-			// @:privateAccess
-			// library.pathGroups.set(symbolPath, [library.__cacheBreak(symbolPath)]);
 			var callback = callbacks.add("song:" + path);
 			Assets.loadSound(path).onComplete(function (_) { callback(); });
 		}
@@ -90,12 +75,11 @@ class LoadingState extends MusicBeatState
 			var callback = callbacks.add("library:" + library);
 			Assets.loadLibrary(library).onComplete(function (_) { callback(); });
 		}
-	}
-	
-	override function beatHit()
-	{
-		super.beatHit();
 		
+		if (additionalCaching != '' && additionalCaching != null)
+		{
+
+		}
 	}
 	
 	override function update(elapsed:Float)
@@ -133,20 +117,13 @@ class LoadingState extends MusicBeatState
 	static function getNextState(target:FlxState, stopMusic = false):FlxState
 	{
 		Paths.setCurrentLevel("week" + PlayState.storyWeek);
-		#if NO_PRELOAD_ALL
-		var loaded = isSoundLoaded(getSongPath())
-			&& (!PlayState.SONG.needsVoices || isSoundLoaded(getVocalPath()))
-			&& isLibraryLoaded("shared");
-		
-		if (!loaded)
-			return new LoadingState(target, stopMusic);
-		#end
+
 		if (stopMusic && FlxG.sound.music != null)
 			FlxG.sound.music.stop();
 		
 		return target;
 	}
-	
+
 	#if NO_PRELOAD_ALL
 	static function isSoundLoaded(path:String):Bool
 	{
