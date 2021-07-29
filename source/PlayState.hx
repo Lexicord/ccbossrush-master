@@ -193,6 +193,9 @@ class PlayState extends MusicBeatState
 	var candolightning:Bool = true;
 	var candopaint:Bool = true;
 	var torch:FlxSprite;
+	var daspacebar:FlxSprite;
+	var curPainting:Int = 0;
+	var wackyshadow:FlxSprite;
 
 	// shit for necromancer 
 	var dodgedbolt:Bool = false;
@@ -788,6 +791,13 @@ class PlayState extends MusicBeatState
 							bg.screenCenter();
 							bg.active = false;
 						
+							wackyshadow = new FlxSprite(0,0).loadGraphic(Paths.image('evilwiz/background/DaWackyShadow'));
+							wackyshadow.setGraphicSize(Std.int(wackyshadow.width * 3));
+							wackyshadow.antialiasing = true;
+							wackyshadow.scrollFactor.set(0.9, 0.9);
+							wackyshadow.screenCenter();
+							wackyshadow.active = false;
+							
 							var ground:FlxSprite = new FlxSprite(0,0).loadGraphic(Paths.image('evilwiz/background/DestroyedFloor'));
 							ground.setGraphicSize(Std.int(ground.width * 3));
 							ground.antialiasing = true;
@@ -1165,7 +1175,10 @@ class PlayState extends MusicBeatState
 				add(foregroundSprites);
 				add(foregroundSprites2);
 			}
-
+			if (curStage == 'destroyedwiz')
+				{
+					add(wackyshadow);
+				}
 
 			add(dad);
 			if (dad.otherFrames != null)
@@ -1548,14 +1561,16 @@ class PlayState extends MusicBeatState
 	{
 		candopaint = false;
 		var ballz:FlxSprite = new FlxSprite(0,0);
-
-		ballz.frames = Paths.getSparrowAtlas('painter/mechanics/block' + FlxG.random.int(1, 4));
+		curPainting += 1;
+		if (curPainting > 4)
+			{curPainting = 1;}
+		ballz.frames = Paths.getSparrowAtlas('painter/mechanics/block' + curPainting);
 
 		ballz.setGraphicSize(Std.int(ballz.width * 2.15));
 		ballz.antialiasing = true;
 		ballz.cameras = [camHUD];
 		ballz.screenCenter();
-
+		
 		ballz.x = FlxG.random.int(450, 800);
 		ballz.y += 150;
 
@@ -4273,14 +4288,14 @@ class PlayState extends MusicBeatState
 			var spacebarthing:FlxSprite = new FlxSprite(0, 0);			
 			spacebarthing.frames = Paths.getSparrowAtlas('spacebar');
 			spacebarthing.antialiasing = true;
-			spacebarthing.setGraphicSize(Std.int(spacebarthing.width / 3.5));
+			spacebarthing.setGraphicSize(Std.int(spacebarthing.width / 2));
 			spacebarthing.cameras = [camHUD];
 			spacebarthing.screenCenter();
 			spacebarthing.animation.addByPrefix('pressnow', 'spacepress', 24, true);
 			add(spacebarthing);
 			spacebarthing.animation.play('pressnow');
-			
-			new FlxTimer().start(0.5, function(tmr:FlxTimer)
+			FlxG.sound.play(Paths.sound('Alarm'));
+			new FlxTimer().start(0.7, function(tmr:FlxTimer)
 				{
 					candodgebolt = false;
 						var murderbolt:FlxSprite = new FlxSprite(0, 0);
@@ -4324,6 +4339,15 @@ class PlayState extends MusicBeatState
 			remove(boyfriend);
 			boyfriend = new Boyfriend(770, 450, 'bf-frozen');
 			add(boyfriend);
+			daspacebar = new FlxSprite(0, 0);			
+			daspacebar.frames = Paths.getSparrowAtlas('spacebar');
+			daspacebar.antialiasing = true;
+			daspacebar.setGraphicSize(Std.int(daspacebar.width / 2));
+			daspacebar.cameras = [camHUD];
+			daspacebar.screenCenter();
+			daspacebar.animation.addByPrefix('pressnow', 'spacepress', 24, true);
+			add(daspacebar);
+			daspacebar.animation.play('pressnow');
 		}
 	}
 	function cyclopsswitch(which)
@@ -4366,6 +4390,20 @@ class PlayState extends MusicBeatState
 				boyfriend = new Boyfriend(770, 450, 'bf');
 				add(boyfriend);
 				FlxG.sound.play(Paths.sound('icebreak'));
+				var breakeffect:FlxSprite = new FlxSprite(0, 0);			
+				breakeffect.frames = Paths.getSparrowAtlas('iceking/ice/breakfree');
+				breakeffect.antialiasing = true;
+				breakeffect.cameras = [camHUD];
+				breakeffect.setPosition(boyfriend.x, boyfriend.y);
+				breakeffect.animation.addByPrefix('break', 'forzen break', 24, true);
+				add(breakeffect);
+				breakeffect.animation.play('break');
+				breakeffect.animation.finishCallback = function(lol:String)
+					{
+						remove(breakeffect);
+					}
+				remove(daspacebar);
+
 			}
 				if (boyfriend.curCharacter == 'bf')
 				{
