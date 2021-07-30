@@ -189,12 +189,10 @@ class PlayState extends MusicBeatState
 	var dodgedbolt:Bool = false;
 	var candodgebolt:Bool = false;
 	var candobolt:Bool = true;
+	//	
 
-	var yRed:Int = 0;
-	var yGreen:Int = 0;
-	var yPurple:Int = 0;
-	var yBlue:Int = 0;
-	// god this is so bad
+	var tamperedfiles:Bool = false;
+	var fcsession:Bool = true;
 
 	public static var frozenhit:Int = 0;
 
@@ -890,13 +888,13 @@ class PlayState extends MusicBeatState
 
 		if (curStage == 'barb')
 		{
-			crowd = new FlxSprite(-1000,-515);
-			crowd.frames = Paths.getSparrowAtlas("Crowdsheet","barb");
-			trace(crowd.frames);
-			crowd.animation.addByPrefix('cheer','Crowd Mechanic',24,false);
-			crowd.setGraphicSize(Std.int(crowd.width * 0.48));
-			add(crowd);
-			crowd.cameras = [camHUD];
+		//	crowd = new FlxSprite(-1000,-515);
+		//	crowd.frames = Paths.getSparrowAtlas("Crowdsheet","barb");
+		//	trace(crowd.frames);
+		//	crowd.animation.addByPrefix('cheer','Crowd Mechanic',24,false);
+		//	crowd.setGraphicSize(Std.int(crowd.width * 0.48));
+		//	add(crowd);
+		//	crowd.cameras = [camHUD];
 		}
 
 		strumLineNotes.cameras = [camHUD];
@@ -937,7 +935,40 @@ class PlayState extends MusicBeatState
 	}
 
 	var curPainting:Int = 0;
+	 
+	function bruh()
+		{
+			new FlxTimer().start(0.25, function(tmr:FlxTimer)
+				{
+					FlxG.sound.play(Paths.sound('boom'));
+					var LOL:FlxSprite = new FlxSprite(0, 0).loadGraphic(Paths.image('vineboom'));
+					LOL.antialiasing = true;
+					LOL.screenCenter();
+					LOL.active = false;
+					LOL.setGraphicSize(Std.int(LOL.width * 3.25));
 
+					LOL.cameras = [camHUD];
+					add(LOL);
+					new FlxTimer().start(0.35, function(tmr:FlxTimer)
+					{
+							new FlxTimer().start(0.05, function(tmr:FlxTimer)
+							{
+								LOL.alpha -= 0.25;
+			
+								if (LOL.alpha > 0)
+								{
+									tmr.reset(0.1);
+								}
+								else
+								{
+									remove(LOL);
+								}
+							});
+						});
+				});
+
+		}
+		
 	function dapaint()
 	{
 		candopaint = false;
@@ -2137,7 +2168,10 @@ class PlayState extends MusicBeatState
 							camHUD.shake(0.02, 0.35);
 							FlxG.camera.shake(0.005, 0.35);
 						}
-						
+						if (SONG.player2 == 'myfnfocDONTSTEAL')
+							{
+								bruh();
+							}
 						if (FlxG.save.data.cpuStrums)
 						{
 							cpuStrums.forEach(function(spr:FlxSprite)
@@ -2321,6 +2355,11 @@ class PlayState extends MusicBeatState
 					FlxG.sound.music.stop();
 					vocals.stop();
 					FlxG.save.data.BEATDAGAME = true;
+					if (fcsession == true)
+						{
+							FlxG.save.data.FullComboBadge = true;
+						}
+						FlxG.save.flush();
 					if (FlxG.save.data.scoreScreen)
 					{
 						openSubState(new ResultsScreen());
@@ -2353,13 +2392,20 @@ class PlayState extends MusicBeatState
 				{
 					
 					// adjusting the song name to be compatible
-					if (curSong.toLowerCase() == 'frostbite')
+					if (curSong.toLowerCase() == 'frostbite' && misses == 0)
 					{
 						FlxG.save.data.UnlockIce = true;
 						FlxG.save.flush();
 						FlxG.sound.play(Paths.sound('errorsfx'));
 					}
-
+					if (misses != 0)
+						{
+							fcsession = false;
+						}
+					else
+						{
+							trace("full combo!!!!!!!!!!");
+						}
 					var songFormat = StringTools.replace(PlayState.storyPlaylist[0], " ", "-");
 
 					var poop:String = Highscore.formatSong(songFormat, storyDifficulty);
@@ -3251,14 +3297,14 @@ class PlayState extends MusicBeatState
 		var spacebarthing:FlxSprite = new FlxSprite(0, 0);			
 		spacebarthing.frames = Paths.getSparrowAtlas('spacebar');
 		spacebarthing.antialiasing = true;
-		spacebarthing.setGraphicSize(Std.int(spacebarthing.width / 3.5));
+		spacebarthing.setGraphicSize(Std.int(spacebarthing.width / 2));
 		spacebarthing.cameras = [camHUD];
 		spacebarthing.screenCenter();
 		spacebarthing.animation.addByPrefix('pressnow', 'spacepress', 24, true);
 		add(spacebarthing);
 		spacebarthing.animation.play('pressnow');
 		
-		new FlxTimer().start(0.5, function(tmr:FlxTimer)
+		new FlxTimer().start(0.65, function(tmr:FlxTimer)
 		{
 			candodgebolt = false;
 

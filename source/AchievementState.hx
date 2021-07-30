@@ -33,8 +33,8 @@ class AchievementState extends MusicBeatState
 				dabadge.antialiasing = true;
 				dabadge.scrollFactor.set(0.9, 0.9);
 				dabadge.active = false;
-				dabadge.x = 250;
-				dabadge.y = -65;
+				dabadge.screenCenter();
+				dabadge.x += 200;
 				dabadge.setGraphicSize(Std.int(dabadge.width / 2.1));
 				add(dabadge);
 				Amount += 1;
@@ -46,8 +46,8 @@ class AchievementState extends MusicBeatState
 					dabadge.antialiasing = true;
 					dabadge.scrollFactor.set(0.9, 0.9);
 					dabadge.active = false;
-					dabadge.x = 500;
-					dabadge.y = 125;
+					dabadge.screenCenter();
+					dabadge.x += 300;
 					dabadge.setGraphicSize(Std.int(dabadge.width / 2.1));
 					add(dabadge);
 					Amount += 1;
@@ -71,7 +71,7 @@ class AchievementState extends MusicBeatState
 							dabadge.scrollFactor.set(0.9, 0.9);
 							dabadge.active = false;
 							dabadge.screenCenter();
-							dabadge.x += 650;
+							dabadge.x -= 200;
 							dabadge.setGraphicSize(Std.int(dabadge.width / 2.1));
 							add(dabadge);
 							Amount += 1;
@@ -83,18 +83,29 @@ class AchievementState extends MusicBeatState
 								dabadge.scrollFactor.set(0.9, 0.9);
 								dabadge.active = false;
 								dabadge.screenCenter();
-								dabadge.x -= 250;
-								dabadge.y += 350;
+								dabadge.x -= 300;
 								dabadge.setGraphicSize(Std.int(dabadge.width / 2.1));
 								add(dabadge);
 								Amount += 1;
 						}
-	if (Amount == 5)
+						if (FlxG.save.data.FullComboBadge == true)
+							{
+									var dabadge:FlxSprite = new FlxSprite(0,0).loadGraphic(Paths.image('badges/FC'));
+									dabadge.antialiasing = true;
+									dabadge.scrollFactor.set(0.9, 0.9);
+									dabadge.active = false;
+									dabadge.screenCenter();
+									dabadge.y -= 75;
+									dabadge.setGraphicSize(Std.int(dabadge.width / 2.1));
+									add(dabadge);
+									Amount += 1;
+							}
+	if (Amount == 6)
 		{
 			PerfectCollection = true;	
 		}
 	
-		var txt:FlxText = new FlxText(0, 0, FlxG.width, "Amount Of Achievements Out Of 5: " + Amount, 24);
+		var txt:FlxText = new FlxText(0, 0, FlxG.width, "Amount Of Achievements Out Of 6: " + Amount, 24);
 			txt.setFormat("VCR OSD Mono", 32, FlxColor.fromRGB(200, 200, 200), CENTER);
 			txt.borderColor = FlxColor.BLACK;
 			txt.borderSize = 3;

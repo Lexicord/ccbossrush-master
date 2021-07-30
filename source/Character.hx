@@ -373,7 +373,7 @@ class Character extends FlxSprite
 
 				addOffset('idle');
 				playAnim('idle');
-
+				//what the fuck LOL
 			case 'barb':
 				var tex = Paths.getSparrowAtlas('barbb/barbchamp');
 				frames = tex;

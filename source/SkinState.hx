@@ -160,6 +160,8 @@ class SkinState extends MusicBeatState
 				curSelection = 6;
 			case 'BOB':
 				curSelection = 7;
+			case 'ICESKIMO':
+				curSelection = 7;
 			default:
 				curSelection = 0;
 		}
@@ -193,7 +195,7 @@ class SkinState extends MusicBeatState
 	//	trace(FlxG.save.data.bfskin); 
 		if (controls.RIGHT_P)
 		{
-			if (curSelection == 7)
+			if (curSelection == 8)
 			{
 				curSelection = 0;
 			}
@@ -208,7 +210,7 @@ class SkinState extends MusicBeatState
 		{
 			if (curSelection == 0)
 			{
-				curSelection = 7;
+				curSelection = 8;
 			}
 			else
 			{

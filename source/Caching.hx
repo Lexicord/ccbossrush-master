@@ -104,7 +104,7 @@ class Caching extends MusicBeatState
             trace(i);
             imagesCyclops.push(i);
         }
-
+        
         trace("caching music...");
 
         for (i in FileSystem.readDirectory(FileSystem.absolutePath("assets/songs")))

@@ -8,6 +8,7 @@ class KadeEngineData
     {
         if (FlxG.save.data.newInput == null)
 			FlxG.save.data.newInput = true;
+		
 		if (FlxG.save.data.UnlockedBob == null)
 			FlxG.save.data.UnlockedBob = false;
 
@@ -113,6 +114,9 @@ class KadeEngineData
 
 		if (FlxG.save.data.UnlockIce == null)
 			FlxG.save.data.UnlockIce = false;
+		
+		if (FlxG.save.data.FullComboBadge == null)
+			FlxG.save.data.FullComboBadge = false;
 
 		var gamepad:FlxGamepad = FlxG.gamepads.lastActive;
 		
