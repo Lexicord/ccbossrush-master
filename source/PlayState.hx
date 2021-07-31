@@ -195,7 +195,6 @@ class PlayState extends MusicBeatState
 	var torch:FlxSprite;
 	var daspacebar:FlxSprite;
 	var curPainting:Int = 0;
-	var wackyshadow:FlxSprite;
 
 	// shit for necromancer 
 	var dodgedbolt:Bool = false;
@@ -304,6 +303,10 @@ class PlayState extends MusicBeatState
 
 		#if windows
 		executeModchart = FileSystem.exists(Paths.lua(songLowercase  + "/modchart"));
+		if (songLowercase == 'subjugation' && !executeModchart)
+			{
+				trace("Modchart Not Found");
+			}
 		if (executeModchart)
 			PlayStateChangeables.Optimize = false;
 		#end
@@ -788,14 +791,7 @@ class PlayState extends MusicBeatState
 							bg.scrollFactor.set(0.9, 0.9);
 							bg.screenCenter();
 							bg.active = false;
-						
-							wackyshadow = new FlxSprite(0,0).loadGraphic(Paths.image('evilwiz/background/DaWackyShadow'));
-							wackyshadow.setGraphicSize(Std.int(wackyshadow.width * 3));
-							wackyshadow.antialiasing = true;
-							wackyshadow.scrollFactor.set(0.9, 0.9);
-							wackyshadow.screenCenter();
-							wackyshadow.active = false;
-							
+
 							var ground:FlxSprite = new FlxSprite(0,0).loadGraphic(Paths.image('evilwiz/background/DestroyedFloor'));
 							ground.setGraphicSize(Std.int(ground.width * 3));
 							ground.antialiasing = true;
@@ -804,6 +800,7 @@ class PlayState extends MusicBeatState
 	
 							add(bg);
 							add(ground);
+						//	add(wackyshadow);
 				}
 				case 'icebg':
 				{
@@ -1173,10 +1170,6 @@ class PlayState extends MusicBeatState
 				add(foregroundSprites);
 				add(foregroundSprites2);
 			}
-			if (curStage == 'destroyedwiz')
-				{
-					add(wackyshadow);
-				}
 
 			add(dad);
 			if (dad.otherFrames != null)

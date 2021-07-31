@@ -27,7 +27,10 @@ function update (elapsed)
 	hudX = getHudX()
     hudY = getHudY()
 	if spin == true then
-		camHudAngle = camHudAngle + 2
+		for i=0,7 do
+			setHudPosition(50 * math.sin((currentBeat * 5 + i*0.25) * math.pi), 10 * math.cos((currentBeat * 5 + i*0.25) * math.pi))
+			setCamPosition(-50 * math.sin((currentBeat * 5 + i*0.25) * math.pi), -10 * math.cos((currentBeat * 5 + i*0.25) * math.pi))
+		end
 	end
 	if shakenote == true then
 		for i=0,7 do
@@ -72,30 +75,65 @@ function stepHit(step)
 		funkysway = true
 		showOnlyStrums = true
 	end
+	if step == 655 then
+		setCamZoom(-2)
+	end
 	if step == 660 then
-		setCamZoom(0.35)
+		setCamZoom(2)
 	end
 	if step == 664 then
-		setCamZoom(0.35)
-		camHudAngle = camHudAngle + 180
+		spin = true
+	end
+	if step == 672 then
+	  	spin = false
+		  setHudPosition(0)
+		  setCamPosition(0)
 	end
 	if step == 688 then 
-		setCamZoom(-0.35)
+		setCamZoom(-2)
 	end
 	if step == 691 then
-		setCamZoom(0.35)
-		camHudAngle = camHudAngle - 180
+		setCamZoom(2)
 	end
-	if step == 725 then
+	if step == 695 then
+		spin = true
+	end
+	if step == 702 then
+		spin = false
+		setHudPosition(0)
+		setCamPosition(0)
+	end
+	if step == 720 then
 		setCamZoom(-0.35)
 	end
-	if step == 727 then
+	if step == 724 then 
 		setCamZoom(0.35)
-		camHudAngle = camHudAngle + 180
+	end
+	if step == 727 then
+		spin = true
+	end
+	if step == 734 then
+		spin = false
+		setHudPosition(0)
+		setCamPosition(0)
+	end
+	if step == 752 then
+		setCamZoom(-0.35)	
+	end
+	if step == 756 then
+		setCamZoom(0.35)
+	end
+	if step == 760 then
+		spin = true
+	end
+	if step == 767 then
+		spin = false
+		setCamZoom(-2)
+		setHudPosition(0)
+		setCamPosition(0)
 	end
 	if step == 771 then
 		setCamZoom(2)
-		camHudAngle = camHudAngle - 180
 		camHudAngle = 0
 		showOnlyStrums = false
 		funkysway = false
@@ -107,39 +145,64 @@ function stepHit(step)
 		showOnlyStrums = true
 	end
 	if step == 1423 then
-		setCamZoom(-0.35)	
+		setCamZoom(-2)	
 	end
 	if step == 1428 then
-		setCamZoom(0.35)
-		camHudAngle = camHudAngle + 180
+		setCamZoom(2)
+	end
+	if step == 1431 then
+		spin = true
+	end
+	if step == 1440 then
+		spin = false
+		setHudPosition(0)
+		setCamPosition(0)
 	end
 	if step == 1455 then
-		setCamZoom(-0.35)	
+		setCamZoom(-2)	
 	end
 	if step == 1460 then
-		setCamZoom(0.35)
-		camHudAngle = camHudAngle - 180
+		setCamZoom(2)
+	end
+	if step == 1464 then
+		spin = true
+	end
+	if step == 1471 then
+		spin = false
+		setHudPosition(0)
+		setCamPosition(0)
 	end
 	if step == 1487 then
 		setCamZoom(-0.35)
 	end
 	if step == 1491 then
 		setCamZoom(0.35)
-		camHudAngle = camHudAngle + 180
+	end
+	if step == 1495 then
+		spin = true
+	end
+	if step == 1503 then
+		spin = false
+		setHudPosition(0)
+		setCamPosition(0)
 	end
 	if step == 1520 then
 		setCamZoom(-0.35)
 	end
 	if step == 1523 then
 		setCamZoom(0.35)
-		camHudAngle = camHudAngle - 180
+	end
+	if step == 1528 then
+		spin = true
 	end
 	if step == 1534 then
 		spin = false
+		setHudPosition(0)
+		setCamPosition(0)
 		camHudAngle = 0
-		showOnlyStrums = false
+		funkysway = false
 		sway = true
-		sway = false
+		showOnlyStrums = false
 		setCamZoom(0.35)
 	end
 end

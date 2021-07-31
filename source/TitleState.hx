@@ -93,7 +93,7 @@ class TitleState extends MusicBeatState
 		trace('NEWGROUNDS LOL');
 		#end
 
-		FlxG.save.bind('funkin', 'lexicord');
+		FlxG.save.bind('funkin', 'ninjamuffin99');
 
 		KadeEngineData.initSave();
 
@@ -432,9 +432,10 @@ class TitleState extends MusicBeatState
 			case 17:
 				addMoreText('Goodenoty');
 			case 18:
-				addMoreText('Goodenoty');
+				addMoreText('Lonestar');
 			case 19:
-				addMoreText('XG_Chris');
+				deleteCoolText();
+				createCoolText(["XGChris and ThatGuyRai"]);
 			case 21:
 				deleteCoolText();
 				createCoolText([curWacky[0]]);
