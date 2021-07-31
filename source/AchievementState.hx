@@ -34,8 +34,8 @@ class AchievementState extends MusicBeatState
 				dabadge.scrollFactor.set(0.9, 0.9);
 				dabadge.active = false;
 				dabadge.screenCenter();
-				dabadge.x += 200;
-				dabadge.setGraphicSize(Std.int(dabadge.width / 2.1));
+				dabadge.x += 450;
+				dabadge.setGraphicSize(Std.int(dabadge.width / 1.75));
 				add(dabadge);
 				Amount += 1;
 		}
@@ -48,7 +48,7 @@ class AchievementState extends MusicBeatState
 					dabadge.active = false;
 					dabadge.screenCenter();
 					dabadge.x += 300;
-					dabadge.setGraphicSize(Std.int(dabadge.width / 2.1));
+					dabadge.setGraphicSize(Std.int(dabadge.width / 2.5));
 					add(dabadge);
 					Amount += 1;
 			}
@@ -60,7 +60,7 @@ class AchievementState extends MusicBeatState
 						dabadge.scrollFactor.set(0.9, 0.9);
 						dabadge.active = false;
 						dabadge.screenCenter();
-						dabadge.setGraphicSize(Std.int(dabadge.width / 2.1));
+						dabadge.setGraphicSize(Std.int(dabadge.width / 2.5));
 						add(dabadge);
 						Amount += 1;
 				}
@@ -71,8 +71,8 @@ class AchievementState extends MusicBeatState
 							dabadge.scrollFactor.set(0.9, 0.9);
 							dabadge.active = false;
 							dabadge.screenCenter();
-							dabadge.x -= 200;
-							dabadge.setGraphicSize(Std.int(dabadge.width / 2.1));
+							dabadge.x -= 450;
+							dabadge.setGraphicSize(Std.int(dabadge.width / 2.5));
 							add(dabadge);
 							Amount += 1;
 					}
@@ -84,7 +84,7 @@ class AchievementState extends MusicBeatState
 								dabadge.active = false;
 								dabadge.screenCenter();
 								dabadge.x -= 300;
-								dabadge.setGraphicSize(Std.int(dabadge.width / 2.1));
+								dabadge.setGraphicSize(Std.int(dabadge.width / 2.5));
 								add(dabadge);
 								Amount += 1;
 						}
@@ -96,7 +96,7 @@ class AchievementState extends MusicBeatState
 									dabadge.active = false;
 									dabadge.screenCenter();
 									dabadge.y -= 75;
-									dabadge.setGraphicSize(Std.int(dabadge.width / 2.1));
+									dabadge.setGraphicSize(Std.int(dabadge.width / 2.5));
 									add(dabadge);
 									Amount += 1;
 							}

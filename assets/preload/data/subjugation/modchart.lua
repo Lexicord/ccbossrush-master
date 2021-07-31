@@ -72,24 +72,74 @@ function stepHit(step)
 		funkysway = true
 		showOnlyStrums = true
 	end
-	if step == 639 then
-		funkysway = false
+	if step == 660 then
+		setCamZoom(0.35)
+	end
+	if step == 664 then
+		setCamZoom(0.35)
+		camHudAngle = camHudAngle + 180
+	end
+	if step == 688 then 
+		setCamZoom(-0.35)
+	end
+	if step == 691 then
+		setCamZoom(0.35)
+		camHudAngle = camHudAngle - 180
+	end
+	if step == 725 then
+		setCamZoom(-0.35)
+	end
+	if step == 727 then
+		setCamZoom(0.35)
+		camHudAngle = camHudAngle + 180
 	end
 	if step == 771 then
+		setCamZoom(2)
+		camHudAngle = camHudAngle - 180
+		camHudAngle = 0
 		showOnlyStrums = false
+		funkysway = false
 		shakenote = true
 	end
 	if step == 1023 then
 		shakenote = false
 		funkysway = true
 		showOnlyStrums = true
-	end   
-	if step == 1431 then
-		funkysway = false
-	end 
+	end
+	if step == 1423 then
+		setCamZoom(-0.35)	
+	end
+	if step == 1428 then
+		setCamZoom(0.35)
+		camHudAngle = camHudAngle + 180
+	end
+	if step == 1455 then
+		setCamZoom(-0.35)	
+	end
+	if step == 1460 then
+		setCamZoom(0.35)
+		camHudAngle = camHudAngle - 180
+	end
+	if step == 1487 then
+		setCamZoom(-0.35)
+	end
+	if step == 1491 then
+		setCamZoom(0.35)
+		camHudAngle = camHudAngle + 180
+	end
+	if step == 1520 then
+		setCamZoom(-0.35)
+	end
+	if step == 1523 then
+		setCamZoom(0.35)
+		camHudAngle = camHudAngle - 180
+	end
 	if step == 1534 then
+		spin = false
 		camHudAngle = 0
 		showOnlyStrums = false
+		sway = true
+		sway = false
 		setCamZoom(0.35)
 	end
 end

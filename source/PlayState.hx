@@ -217,7 +217,7 @@ class PlayState extends MusicBeatState
 	public var songScore:Int = 0;
 	var songScoreDef:Int = 0;
 	var scoreTxt:FlxText;
-	public var crowd:FlxSprite;
+	var crowd:FlxSprite;
 	var replayTxt:FlxText;
 
 	public static var campaignScore:Int = 0;
@@ -1218,8 +1218,8 @@ class PlayState extends MusicBeatState
 			PlayStateChangeables.botPlay = true;
 		}
 
-		if (curStage == 'barb')
-			PlayStateChangeables.useDownscroll = false;
+	//	if (curStage == 'barb')
+	//		PlayStateChangeables.useDownscroll = false;
 
 		trace('uh ' + PlayStateChangeables.safeFrames);
 
@@ -1365,17 +1365,6 @@ class PlayState extends MusicBeatState
 		iconP2.y = healthBar.y - (iconP2.height / 2);
 		add(iconP2);
 
-		if (curStage == 'barb')
-		{
-		//	crowd = new FlxSprite(-1000,-515);
-		//	crowd.frames = Paths.getSparrowAtlas("Crowdsheet","barb");
-		//	trace(crowd.frames);
-		//	crowd.animation.addByPrefix('cheer','Crowd Mechanic',24,false);
-		//	crowd.setGraphicSize(Std.int(crowd.width * 0.48));
-		//	add(crowd);
-		//	crowd.cameras = [camHUD];
-		}
-
 		strumLineNotes.cameras = [camHUD];
 		notes.cameras = [camHUD];
 		healthBar.cameras = [camHUD];
@@ -1434,13 +1423,6 @@ class PlayState extends MusicBeatState
 							});
 						});
 					});
-				case 'senpai':
-					schoolIntro(doof);
-				case 'roses':
-					FlxG.sound.play(Paths.sound('ANGRY'));
-					schoolIntro(doof);
-				case 'thorns':
-					schoolIntro(doof);
 				default:
 					startCountdown();
 			}
@@ -1463,41 +1445,59 @@ class PlayState extends MusicBeatState
 		super.create();
 	}
 
-	var curPainting:Int = 0;
 	 
 	function bruh()
 		{
-			new FlxTimer().start(0.25, function(tmr:FlxTimer)
-				{
-					FlxG.sound.play(Paths.sound('boom'));
-					var LOL:FlxSprite = new FlxSprite(0, 0).loadGraphic(Paths.image('vineboom'));
-					LOL.antialiasing = true;
-					LOL.screenCenter();
-					LOL.active = false;
-					LOL.setGraphicSize(Std.int(LOL.width * 3.25));
+			FlxG.sound.play(Paths.sound('boom'));
+			var LOL:FlxSprite = new FlxSprite(0, 0).loadGraphic(Paths.image('vineboom'));
+			LOL.antialiasing = true;
+			LOL.screenCenter();
+			LOL.active = false;
+			LOL.setGraphicSize(Std.int(LOL.width * 3.25));
 
-					LOL.cameras = [camHUD];
-					add(LOL);
-					new FlxTimer().start(0.35, function(tmr:FlxTimer)
+			LOL.cameras = [camHUD];
+			add(LOL);
+			new FlxTimer().start(0.35, function(tmr:FlxTimer)
+			{
+					new FlxTimer().start(0.05, function(tmr:FlxTimer)
 					{
-							new FlxTimer().start(0.05, function(tmr:FlxTimer)
-							{
-								LOL.alpha -= 0.25;
-			
-								if (LOL.alpha > 0)
-								{
-									tmr.reset(0.1);
-								}
-								else
-								{
-									remove(LOL);
-								}
-							});
-						});
+						LOL.alpha -= 0.25;
+	
+						if (LOL.alpha > 0)
+						{
+							tmr.reset(0.1);
+						}
+						else
+						{
+							remove(LOL);
+						}
+					});
 				});
 
 		}
-		
+	var crowdcanappear:Bool = true;
+		function crowdmechanic() //had to fix kades code :joy:
+			{
+				if (crowdcanappear != false)
+					{
+						crowdcanappear = true;
+						var dacrowd:FlxSprite = new FlxSprite(-1000,-515);
+						dacrowd.frames = Paths.getSparrowAtlas("Crowdsheet", "barb");
+						dacrowd.animation.addByPrefix('cheer','Crowd Mechanic',24,false);
+						dacrowd.setGraphicSize(Std.int(crowd.width * 0.48));
+						add(dacrowd);
+						dacrowd.cameras = [camHUD];
+						crowd.animation.play('cheer');
+						crowd.animation.finishCallback = function(lol:String)
+							{
+								remove(crowd);
+							new FlxTimer().start(0.5, function(tmr:FlxTimer)
+								{
+									crowdcanappear = true;
+								});
+							}
+					}
+			}
 	function dapaint()
 	{
 		candopaint = false;
@@ -2371,22 +2371,6 @@ class PlayState extends MusicBeatState
 				iconP1.animation.play('bf-old');
 		}
 
-		switch (curStage)
-		{
-			case 'philly':
-				if (trainMoving && !PlayStateChangeables.Optimize)
-				{
-					trainFrameTiming += elapsed;
-
-					if (trainFrameTiming >= 1 / 24)
-					{
-						updateTrainPos();
-						trainFrameTiming = 0;
-					}
-				}
-				// phillyCityLights.members[curLight].alpha -= (Conductor.crochet / 1000) * FlxG.elapsed;
-		}
-
 		super.update(elapsed);
 
 		scoreTxt.text = Ratings.CalculateRanking(songScore,songScoreDef,nps,maxNPS,accuracy);
@@ -3132,6 +3116,17 @@ class PlayState extends MusicBeatState
 					FlxG.sound.music.stop();
 					vocals.stop();
 					FlxG.save.data.BEATDAGAME = true;
+					var popupforthig:FlxSprite = new FlxSprite(0, 0);
+					popupforthig.frames = Paths.getSparrowAtlas('Achievement', 'shared');
+					popupforthig.antialiasing = true;
+					popupforthig.screenCenter();
+					popupforthig.animation.addByPrefix('swag', 'Thingy', 24, false);
+					add(popupforthig);
+					popupforthig.animation.play('swag');
+					popupforthig.animation.finishCallback = function(lol:String)
+						{
+							remove(popupforthig);
+						}	
 					if (fcsession == true)
 						{
 							FlxG.save.data.FullComboBadge = true;
@@ -3184,6 +3179,17 @@ class PlayState extends MusicBeatState
 						FlxG.save.data.UnlockIce = true;
 						FlxG.save.flush();
 						FlxG.sound.play(Paths.sound('errorsfx'));
+						var popupforthig:FlxSprite = new FlxSprite(0, 0);
+						popupforthig.frames = Paths.getSparrowAtlas('Achievement', 'shared');
+						popupforthig.antialiasing = true;
+						popupforthig.screenCenter();
+						popupforthig.animation.addByPrefix('swag', 'Thingy', 24, false);
+						add(popupforthig);
+						popupforthig.animation.play('swag');
+						popupforthig.animation.finishCallback = function(lol:String)
+							{
+								remove(popupforthig);
+							}	
 					}
 					if (misses != 0)
 						{
@@ -3882,11 +3888,10 @@ class PlayState extends MusicBeatState
 			combo = 0;
 			misses++;
 
-			if (curStage == 'barb')
-				if (crowd.animation.finished)
-				{
-					crowd.animation.play('cheer');
-				}
+		//	if (curStage == 'barb')
+		//		{
+		//			crowdmechanic();
+		//		}
 
 			if (daNote != null)
 			{
@@ -4153,48 +4158,6 @@ class PlayState extends MusicBeatState
 		}
 	}
 
-	var trainMoving:Bool = false;
-	var trainFrameTiming:Float = 0;
-
-	var trainCars:Int = 8;
-	var trainFinishing:Bool = false;
-	var trainCooldown:Int = 0;
-
-	function trainStart():Void
-	{
-		candobolt = false;
-		candodgebolt = true;
-
-		var spacebarthing:FlxSprite = new FlxSprite(0, 0);			
-		spacebarthing.frames = Paths.getSparrowAtlas('spacebar');
-		spacebarthing.antialiasing = true;
-		spacebarthing.setGraphicSize(Std.int(spacebarthing.width / 2));
-		spacebarthing.cameras = [camHUD];
-		spacebarthing.screenCenter();
-		spacebarthing.animation.addByPrefix('pressnow', 'spacepress', 24, true);
-		add(spacebarthing);
-		spacebarthing.animation.play('pressnow');
-		
-		new FlxTimer().start(0.65, function(tmr:FlxTimer)
-		{
-			candodgebolt = false;
-
-	}
-
-	function trainReset():Void
-	{
-		if(FlxG.save.data.distractions){
-			gf.playAnim('hairFall');
-			phillyTrain.x = FlxG.width + 200;
-			trainMoving = false;
-			// trainSound.stop();
-			// trainSound.time = 0;
-			trainCars = 8;
-			trainFinishing = false;
-			startedMoving = false;
-		}
-	}
-
 	function lightningStrikeShit():Void
 	{
 		FlxG.sound.play(Paths.soundRandom('thunder_', 1, 2));
@@ -4232,8 +4195,7 @@ class PlayState extends MusicBeatState
 			spacebarthing.animation.addByPrefix('pressnow', 'spacepress', 24, true);
 			add(spacebarthing);
 			spacebarthing.animation.play('pressnow');
-			FlxG.sound.play(Paths.sound('Alarm'));
-			new FlxTimer().start(0.7, function(tmr:FlxTimer)
+			new FlxTimer().start(0.65, function(tmr:FlxTimer)
 				{
 					candodgebolt = false;
 						var murderbolt:FlxSprite = new FlxSprite(0, 0);
@@ -4607,33 +4569,7 @@ class PlayState extends MusicBeatState
 					for(i in foregroundSprites)
 							i.dance();
 				}
-			case "philly":
-				if(FlxG.save.data.distractions){
-					if (!trainMoving)
-						trainCooldown += 1;
-	
-					if (curBeat % 4 == 0)
-					{
-						phillyCityLights.forEach(function(light:FlxSprite)
-						{
-							light.visible = false;
-						});
-	
-						curLight = FlxG.random.int(0, phillyCityLights.length - 1);
-	
-						phillyCityLights.members[curLight].visible = true;
-						// phillyCityLights.members[curLight].alpha = 1;
-				}
 
-				}
-
-				if (curBeat % 8 == 4 && FlxG.random.bool(30) && !trainMoving && trainCooldown > 8)
-				{
-					if(FlxG.save.data.distractions){
-						trainCooldown = FlxG.random.int(-4, 0);
-						trainStart();
-					}
-				}
 		}
 
 		if (isHalloween && FlxG.random.bool(10) && curBeat > lightningStrikeBeat + lightningOffset)

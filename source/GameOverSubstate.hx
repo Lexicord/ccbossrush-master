@@ -33,6 +33,17 @@ class GameOverSubstate extends MusicBeatSubstate
 				FlxG.save.data.LoseToBarb = true;
 				FlxG.save.flush();
 				FlxG.sound.play(Paths.sound('errorsfx'));
+				var popupforthig:FlxSprite = new FlxSprite(0, 0);
+				popupforthig.frames = Paths.getSparrowAtlas('Achievement', 'shared');
+				popupforthig.antialiasing = true;
+				popupforthig.screenCenter();
+				popupforthig.animation.addByPrefix('swag', 'Thingy', 24, false);
+				add(popupforthig);
+				popupforthig.animation.play('swag');
+				popupforthig.animation.finishCallback = function(lol:String)
+					{
+						remove(popupforthig);
+					}	
 			}
 
 		camFollow = new FlxObject(bf.getGraphicMidpoint().x, bf.getGraphicMidpoint().y, 1, 1);

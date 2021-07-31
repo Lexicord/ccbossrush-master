@@ -75,6 +75,17 @@ class MainMenuState extends MusicBeatState
 				FlxG.save.data.Sussy = true;
 				FlxG.save.flush();
 				FlxG.sound.play(Paths.sound('errorsfx'));
+				var popupforthig:FlxSprite = new FlxSprite(0, 0);
+				popupforthig.frames = Paths.getSparrowAtlas('Achievement', 'shared');
+				popupforthig.antialiasing = true;
+				popupforthig.screenCenter();
+				popupforthig.animation.addByPrefix('swag', 'Thingy', 24, false);
+				add(popupforthig);
+				popupforthig.animation.play('swag');
+				popupforthig.animation.finishCallback = function(lol:String)
+					{
+						remove(popupforthig);
+					}	
 			}
 		if (FlxG.save.data.BEATDAGAME == false)
 			{
@@ -253,8 +264,17 @@ class MainMenuState extends MusicBeatState
 														curLetter = 1;
 														FlxG.save.data.UnlockedBob = true;
 														FlxG.save.flush();
-														FlxG.sound.play(Paths.sound('errorsfx'));
-														
+														var popupforthig:FlxSprite = new FlxSprite(0, 0);
+														popupforthig.frames = Paths.getSparrowAtlas('Achievement', 'shared');
+														popupforthig.antialiasing = true;
+														popupforthig.screenCenter();
+														popupforthig.animation.addByPrefix('swag', 'Thingy', 24, false);
+														add(popupforthig);
+														popupforthig.animation.play('swag');
+														popupforthig.animation.finishCallback = function(lol:String)
+															{
+																remove(popupforthig);
+															}	
 													}
 											}
 									}	

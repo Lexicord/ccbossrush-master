@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Achievement.png">
+	<!-- Created with Adobe Animate version 21.0.5.40714 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Thingy0000" x="25" y="25" width="65" height="6" frameX="-272" frameY="-60" frameWidth="610" frameHeight="126"/>
+	<SubTexture name="Thingy0001" x="115" y="25" width="65" height="6" frameX="-272" frameY="-60" frameWidth="610" frameHeight="126"/>
+	<SubTexture name="Thingy0002" x="115" y="25" width="65" height="6" frameX="-272" frameY="-60" frameWidth="610" frameHeight="126"/>
+	<SubTexture name="Thingy0003" x="205" y="25" width="65" height="8" frameX="-272" frameY="-59" frameWidth="610" frameHeight="126"/>
+	<SubTexture name="Thingy0004" x="295" y="25" width="65" height="10" frameX="-272" frameY="-58" frameWidth="610" frameHeight="126"/>
+	<SubTexture name="Thingy0005" x="385" y="25" width="65" height="14" frameX="-272" frameY="-56" frameWidth="610" frameHeight="126"/>
+	<SubTexture name="Thingy0006" x="475" y="25" width="64" height="19" frameX="-273" frameY="-53" frameWidth="610" frameHeight="126"/>
+	<SubTexture name="Thingy0007" x="564" y="25" width="63" height="26" frameX="-273" frameY="-50" frameWidth="610" frameHeight="126"/>
+	<SubTexture name="Thingy0008" x="652" y="25" width="63" height="37" frameX="-273" frameY="-44" frameWidth="610" frameHeight="126"/>
+	<SubTexture name="Thingy0009" x="740" y="25" width="61" height="50" frameX="-274" frameY="-38" frameWidth="610" frameHeight="126"/>
+	<SubTexture name="Thingy0010" x="826" y="25" width="60" height="66" frameX="-275" frameY="-30" frameWidth="610" frameHeight="126"/>
+	<SubTexture name="Thingy0011" x="911" y="25" width="59" height="86" frameX="-275" frameY="-20" frameWidth="610" frameHeight="126"/>
+	<SubTexture name="Thingy0012" x="995" y="25" width="57" height="110" frameX="-276" frameY="-8" frameWidth="610" frameHeight="126"/>
+	<SubTexture name="Thingy0013" x="1077" y="25" width="184" height="114" frameX="-213" frameY="-6" frameWidth="610" frameHeight="126"/>
+	<SubTexture name="Thingy0014" x="1286" y="25" width="290" height="117" frameX="-160" frameY="-4" frameWidth="610" frameHeight="126"/>
+	<SubTexture name="Thingy0015" x="1601" y="25" width="377" height="120" frameX="-116" frameY="-3" frameWidth="610" frameHeight="126"/>
+	<SubTexture name="Thingy0016" x="2003" y="25" width="446" height="122" frameX="-82" frameY="-2" frameWidth="610" frameHeight="126"/>
+	<SubTexture name="Thingy0017" x="2474" y="25" width="501" height="123" frameX="-54" frameY="-1" frameWidth="610" frameHeight="126"/>
+	<SubTexture name="Thingy0018" x="3000" y="25" width="542" height="124" frameX="-34" frameY="-1" frameWidth="610" frameHeight="126"/>
+	<SubTexture name="Thingy0019" x="25" y="174" width="570" height="124" frameX="-20" frameY="-1" frameWidth="610" frameHeight="126"/>
+	<SubTexture name="Thingy0020" x="620" y="174" width="590" height="125" frameX="-10" frameY="-1" frameWidth="610" frameHeight="126"/>
+	<SubTexture name="Thingy0021" x="1235" y="174" width="602" height="125" frameX="-4" frameY="-1" frameWidth="610" frameHeight="126"/>
+	<SubTexture name="Thingy0022" x="1862" y="174" width="608" height="126" frameX="-1" frameY="0" frameWidth="610" frameHeight="126"/>
+	<SubTexture name="Thingy0023" x="2495" y="174" width="609" height="126" frameX="-1" frameY="0" frameWidth="610" frameHeight="126"/>
+	<SubTexture name="Thingy0024" x="3129" y="174" width="610" height="126"/>
+	<SubTexture name="Thingy0025" x="25" y="325" width="610" height="126"/>
+	<SubTexture name="Thingy0026" x="660" y="325" width="610" height="126"/>
+	<SubTexture name="Thingy0027" x="1295" y="325" width="610" height="126"/>
+	<SubTexture name="Thingy0028" x="1930" y="325" width="610" height="126"/>
+	<SubTexture name="Thingy0029" x="2565" y="325" width="610" height="126"/>
+	<SubTexture name="Thingy0030" x="3200" y="325" width="610" height="126"/>
+	<SubTexture name="Thingy0031" x="25" y="476" width="610" height="126"/>
+	<SubTexture name="Thingy0032" x="660" y="476" width="610" height="126"/>
+	<SubTexture name="Thingy0033" x="1295" y="476" width="610" height="126"/>
+	<SubTexture name="Thingy0034" x="1930" y="476" width="610" height="126"/>
+	<SubTexture name="Thingy0035" x="2565" y="476" width="610" height="126"/>
+	<SubTexture name="Thingy0036" x="3200" y="476" width="610" height="126"/>
+	<SubTexture name="Thingy0037" x="25" y="627" width="610" height="126"/>
+	<SubTexture name="Thingy0038" x="660" y="627" width="610" height="126"/>
+	<SubTexture name="Thingy0039" x="1295" y="627" width="610" height="126"/>
+	<SubTexture name="Thingy0040" x="1930" y="627" width="610" height="126"/>
+	<SubTexture name="Thingy0041" x="2565" y="627" width="610" height="126"/>
+	<SubTexture name="Thingy0042" x="3200" y="627" width="610" height="126"/>
+	<SubTexture name="Thingy0043" x="25" y="778" width="610" height="126"/>
+	<SubTexture name="Thingy0044" x="660" y="778" width="610" height="126"/>
+	<SubTexture name="Thingy0045" x="1295" y="778" width="610" height="126"/>
+	<SubTexture name="Thingy0046" x="1930" y="778" width="610" height="126"/>
+	<SubTexture name="Thingy0047" x="2565" y="778" width="610" height="126"/>
+	<SubTexture name="Thingy0048" x="3200" y="778" width="610" height="126"/>
+	<SubTexture name="Thingy0049" x="25" y="929" width="610" height="126"/>
+	<SubTexture name="Thingy0050" x="660" y="929" width="610" height="126"/>
+	<SubTexture name="Thingy0051" x="1295" y="929" width="610" height="126"/>
+	<SubTexture name="Thingy0052" x="1930" y="929" width="610" height="126"/>
+	<SubTexture name="Thingy0053" x="2565" y="929" width="610" height="126"/>
+	<SubTexture name="Thingy0054" x="3200" y="929" width="610" height="126"/>
+	<SubTexture name="Thingy0055" x="25" y="1080" width="610" height="126"/>
+	<SubTexture name="Thingy0056" x="660" y="1080" width="610" height="126"/>
+	<SubTexture name="Thingy0057" x="1295" y="1080" width="610" height="126"/>
+	<SubTexture name="Thingy0058" x="1930" y="1080" width="610" height="126"/>
+	<SubTexture name="Thingy0059" x="2565" y="1080" width="610" height="126"/>
+	<SubTexture name="Thingy0060" x="2565" y="1080" width="610" height="126"/>
+	<SubTexture name="Thingy0061" x="2565" y="1080" width="610" height="126"/>
+	<SubTexture name="Thingy0062" x="2565" y="1080" width="610" height="126"/>
+	<SubTexture name="Thingy0063" x="2565" y="1080" width="610" height="126"/>
+	<SubTexture name="Thingy0064" x="2565" y="1080" width="610" height="126"/>
+	<SubTexture name="Thingy0065" x="2565" y="1080" width="610" height="126"/>
+	<SubTexture name="Thingy0066" x="2565" y="1080" width="610" height="126"/>
+	<SubTexture name="Thingy0067" x="2565" y="1080" width="610" height="126"/>
+	<SubTexture name="Thingy0068" x="2565" y="1080" width="610" height="126"/>
+	<SubTexture name="Thingy0069" x="2565" y="1080" width="610" height="126"/>
+	<SubTexture name="Thingy0070" x="2565" y="1080" width="610" height="126"/>
+	<SubTexture name="Thingy0071" x="2565" y="1080" width="610" height="126"/>
+	<SubTexture name="Thingy0072" x="2565" y="1080" width="610" height="126"/>
+	<SubTexture name="Thingy0073" x="2565" y="1080" width="610" height="126"/>
+	<SubTexture name="Thingy0074" x="2565" y="1080" width="610" height="126"/>
+	<SubTexture name="Thingy0075" x="2565" y="1080" width="610" height="126"/>
+	<SubTexture name="Thingy0076" x="2565" y="1080" width="610" height="126"/>
+	<SubTexture name="Thingy0077" x="2565" y="1080" width="610" height="126"/>
+	<SubTexture name="Thingy0078" x="2565" y="1080" width="610" height="126"/>
+	<SubTexture name="Thingy0079" x="2565" y="1080" width="610" height="126"/>
+	<SubTexture name="Thingy0080" x="2565" y="1080" width="610" height="126"/>
+	<SubTexture name="Thingy0081" x="2565" y="1080" width="610" height="126"/>
+	<SubTexture name="Thingy0082" x="2565" y="1080" width="610" height="126"/>
+	<SubTexture name="Thingy0083" x="2565" y="1080" width="610" height="126"/>
+	<SubTexture name="Thingy0084" x="2565" y="1080" width="610" height="126"/>
+	<SubTexture name="Thingy0085" x="2565" y="1080" width="610" height="126"/>
+	<SubTexture name="Thingy0086" x="2565" y="1080" width="610" height="126"/>
+	<SubTexture name="Thingy0087" x="2565" y="1080" width="610" height="126"/>
+	<SubTexture name="Thingy0088" x="2565" y="1080" width="610" height="126"/>
+	<SubTexture name="Thingy0089" x="2565" y="1080" width="610" height="126"/>
+	<SubTexture name="Thingy0090" x="2565" y="1080" width="610" height="126"/>
+	<SubTexture name="Thingy0091" x="2565" y="1080" width="610" height="126"/>
+	<SubTexture name="Thingy0092" x="2565" y="1080" width="610" height="126"/>
+	<SubTexture name="Thingy0093" x="2565" y="1080" width="610" height="126"/>
+	<SubTexture name="Thingy0094" x="2565" y="1080" width="610" height="126"/>
+	<SubTexture name="Thingy0095" x="2565" y="1080" width="610" height="126"/>
+	<SubTexture name="Thingy0096" x="3200" y="1080" width="609" height="125" frameX="-1" frameY="-1" frameWidth="610" frameHeight="126"/>
+	<SubTexture name="Thingy0097" x="25" y="1231" width="609" height="125" frameX="-1" frameY="-1" frameWidth="610" frameHeight="126"/>
+	<SubTexture name="Thingy0098" x="659" y="1231" width="609" height="125" frameX="-1" frameY="-1" frameWidth="610" frameHeight="126"/>
+	<SubTexture name="Thingy0099" x="1293" y="1231" width="608" height="125" frameX="-1" frameY="-1" frameWidth="610" frameHeight="126"/>
+	<SubTexture name="Thingy0100" x="1926" y="1231" width="606" height="125" frameX="-2" frameY="-1" frameWidth="610" frameHeight="126"/>
+	<SubTexture name="Thingy0101" x="2557" y="1231" width="602" height="124" frameX="-4" frameY="-1" frameWidth="610" frameHeight="126"/>
+	<SubTexture name="Thingy0102" x="3184" y="1231" width="596" height="124" frameX="-7" frameY="-1" frameWidth="610" frameHeight="126"/>
+	<SubTexture name="Thingy0103" x="25" y="1381" width="588" height="122" frameX="-11" frameY="-2" frameWidth="610" frameHeight="126"/>
+	<SubTexture name="Thingy0104" x="638" y="1381" width="578" height="120" frameX="-16" frameY="-3" frameWidth="610" frameHeight="126"/>
+	<SubTexture name="Thingy0105" x="1241" y="1381" width="567" height="118" frameX="-21" frameY="-4" frameWidth="610" frameHeight="126"/>
+	<SubTexture name="Thingy0106" x="1833" y="1381" width="552" height="115" frameX="-29" frameY="-5" frameWidth="610" frameHeight="126"/>
+	<SubTexture name="Thingy0107" x="2410" y="1381" width="536" height="111" frameX="-37" frameY="-7" frameWidth="610" frameHeight="126"/>
+	<SubTexture name="Thingy0108" x="2971" y="1381" width="514" height="107" frameX="-48" frameY="-9" frameWidth="610" frameHeight="126"/>
+	<SubTexture name="Thingy0109" x="3510" y="1381" width="490" height="102" frameX="-60" frameY="-12" frameWidth="610" frameHeight="126"/>
+	<SubTexture name="Thingy0110" x="25" y="1528" width="463" height="96" frameX="-73" frameY="-15" frameWidth="610" frameHeight="126"/>
+	<SubTexture name="Thingy0111" x="513" y="1528" width="432" height="90" frameX="-89" frameY="-18" frameWidth="610" frameHeight="126"/>
+	<SubTexture name="Thingy0112" x="970" y="1528" width="396" height="83" frameX="-107" frameY="-21" frameWidth="610" frameHeight="126"/>
+	<SubTexture name="Thingy0113" x="1391" y="1528" width="356" height="75" frameX="-127" frameY="-25" frameWidth="610" frameHeight="126"/>
+	<SubTexture name="Thingy0114" x="1772" y="1528" width="310" height="66" frameX="-150" frameY="-30" frameWidth="610" frameHeight="126"/>
+	<SubTexture name="Thingy0115" x="2107" y="1528" width="260" height="56" frameX="-175" frameY="-35" frameWidth="610" frameHeight="126"/>
+	<SubTexture name="Thingy0116" x="2392" y="1528" width="206" height="44" frameX="-202" frameY="-41" frameWidth="610" frameHeight="126"/>
+	<SubTexture name="Thingy0117" x="2623" y="1528" width="144" height="32" frameX="-233" frameY="-47" frameWidth="610" frameHeight="126"/>
+	<SubTexture name="Thingy0118" x="2792" y="1528" width="78" height="18" frameX="-266" frameY="-54" frameWidth="610" frameHeight="126"/>
+	<SubTexture name="Thingy0119" x="2895" y="1528" width="6" height="4" frameX="-302" frameY="-61" frameWidth="610" frameHeight="126"/>
+</TextureAtlas>

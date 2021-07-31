@@ -240,5 +240,6 @@ class SkinState extends MusicBeatState
 				FlxG.switchState(new MainMenuState());
 			}
 		super.update(elapsed);
-	}
+		}
+	}	
 }

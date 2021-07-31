@@ -27,6 +27,7 @@ class HealthIcon extends FlxSprite
 		animation.add('iceking', [36, 35], 0, false, isPlayer);
 		//
 		animation.add('bf', [0, 1], 0, false, isPlayer);
+		animation.add('myfnfocDONTSTEAL', [0, 0], 0, false, isPlayer);
 		animation.add('bf-frozen', [0, 1], 0, false, isPlayer);
 		animation.add('bf-car', [0, 1], 0, false, isPlayer);
 		animation.add('bf-christmas', [0, 1], 0, false, isPlayer);
