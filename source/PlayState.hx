@@ -4178,14 +4178,12 @@ class PlayState extends MusicBeatState
 		new FlxTimer().start(0.65, function(tmr:FlxTimer)
 		{
 			candodgebolt = false;
-		}
 
 	}
 
 	function trainReset():Void
 	{
-		if(FlxG.save.data.distractions)
-			{
+		if(FlxG.save.data.distractions){
 			gf.playAnim('hairFall');
 			phillyTrain.x = FlxG.width + 200;
 			trainMoving = false;
